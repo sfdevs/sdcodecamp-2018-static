@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sessions on South Dakota Code Camp</title>
-    <link>http://www.sdcodecamp.com/sessions/</link>
+    <link>https://sfdevs.github.io/sdcodecamp-2018-static/sessions/</link>
     <description>Recent content in Sessions on South Dakota Code Camp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Sep 2018 12:54:32 -0500</lastBuildDate>
     
-	<atom:link href="http://www.sdcodecamp.com/sessions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sfdevs.github.io/sdcodecamp-2018-static/sessions/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
