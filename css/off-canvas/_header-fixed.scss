@@ -1,0 +1,78 @@
+//
+// Component section heading
+//
+// Add "has-header-fixed" class to <body> tag to get the off canvas panel to show up on the right
+// This has some issues iOS Safari. Imagine that!
+//
+
+.has-header-fixed {
+    position: relative;
+    padding-top: $height-site-header;
+
+    .l-canvas {
+        position: relative;
+        left: 0;
+    }
+
+    .l-header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .l-off-canvas {
+        overflow-y: auto;
+        height: 100vh;
+        -webkit-overflow-scrolling: touch;
+        @include rotate(0deg);
+
+        @media (min-width: $off-canvas-breakpoint) {
+            overflow: visible;
+            height: auto;
+        }
+    }
+
+    &.js-off-canvas-showing {
+        overflow: hidden;
+        height: 100vh;
+
+        @media (min-width: $off-canvas-breakpoint) {
+            overflow: auto;
+        }
+
+        .l-canvas {
+            overflow: hidden;
+
+            @media (min-width: $off-canvas-breakpoint) {
+                overflow: auto;
+            }
+        }
+
+        .slide-over-transition {
+            left: 0;
+            @include translateX($width-off-canvas);
+
+            @media (min-width: $off-canvas-breakpoint) {
+                left: 0;
+                @include translateX(0);
+            }
+        }
+    }
+
+    &.off-canvas-right {
+        &.js-off-canvas-showing {
+            .slide-over-transition {
+                left: 0;
+                @include translateX(-$width-off-canvas);
+
+                @media (min-width: $off-canvas-breakpoint) {
+                    left: 0;
+                    @include translateX(0);
+                }
+            }
+        }
+    }
+}

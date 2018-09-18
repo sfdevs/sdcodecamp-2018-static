@@ -1,0 +1,111 @@
+//
+// Navigation
+//
+
+.mln--js-loading {
+    visibility: hidden;
+}
+
+.l-navbar {
+    z-index: 2;
+
+    a {
+        font-weight: 900;
+    }
+
+    .mln__list {
+        .mln__child__collapse {
+            background-color: darken(white, 3%);
+        }
+
+        @media (min-width: $off-canvas-breakpoint) {
+            background-color: white;
+
+            .mln__child__collapse {
+                background-color: darken(white, 3%);
+                box-shadow: $box-shadow-common;
+            }
+        }
+    }
+
+    .mln__list__item--top-level > a,
+    .mln__child__list a {
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .mln__child__nav a:hover {
+        text-decoration: underline;
+    }
+
+    a,
+    .mln__toggle-btn:focus {
+        // outline: 0;
+        outline-offset: -3px;
+    }
+
+    .mln__child__mega-menu {
+        a {
+            padding-left: 0 !important;
+            color: $color-night-sky;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    @media (min-width: $off-canvas-breakpoint) {
+        .mln__has-child--showing {
+            > .mln__child__nav a {
+                background-color: white;
+            }
+        }
+
+        .mln__has-child--showing > .mln__child__nav > .mln__toggle-btn {
+            background-color: darken(white, 3%);
+            color: $color-link;
+        }
+    }
+}
+
+.mln__child__mega-menu {
+    .media-image {
+        max-width: 4rem;
+    }
+
+    @media (min-width: $screen-lg) {
+        .media-image {
+            max-width: 6rem;
+        }
+    }
+}
+
+
+.mln__expand-btn {
+    .mln__expand-btn__burger,
+    .mln__expand-btn__burger:before,
+    .mln__expand-btn__burger:after {
+        transition: transform ease-out 100ms,
+        opacity ease-out 100ms;
+    }
+
+    &[aria-expanded="true"] {
+        .mln__expand-btn__burger {
+            transform: scale(.6, 1);
+
+            &:before {
+                opacity: 0;
+                transform: translateY(.375rem);
+            }
+
+            &:after {
+                opacity: 0;
+                transform: translateY(-.376rem);
+            }
+        }
+    }
+}

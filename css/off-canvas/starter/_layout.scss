@@ -1,0 +1,45 @@
+.l-header {
+    background-color: $color-gray-1000;
+}
+
+.l-nav__list {
+    a {
+        display: block;
+        color: $color-gray-1000;
+        text-decoration: none;
+    }
+
+
+    .current,
+    .active {
+        a {
+            border-left: .188rem solid $color-gray-1000;
+        }
+    }
+
+    @media (min-width: $off-canvas-breakpoint) {
+        a {
+            color: white;
+        }
+
+        .current,
+        .active {
+            a {
+                border-left: 0;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.l-off-canvas {
+    background-color: #fff;
+
+    .toggle-off-canvas {
+        background-color: transparent;
+    }
+
+    .toggle-hamburger__bun {
+        background-color: $color-gray-1000;
+    }
+}

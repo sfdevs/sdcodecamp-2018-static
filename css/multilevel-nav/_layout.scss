@@ -1,0 +1,397 @@
+// Menu expander related
+.mln {
+    position: relative;
+    background-color: $color-menu-primary;
+
+    // Clearfix
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.mln__expander {
+    position: absolute;
+    top: 100%;
+    top: calc(100% - 1px);
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+
+    // Clearfix
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+    &:after {
+        clear: both;
+    }
+
+    #{$focusable-selectors} {
+        transition: visibility $transition-speed-child-menu linear;
+    }
+
+    &[aria-hidden="true"] {
+        #{$focusable-selectors} {
+            visibility: hidden;
+
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+
+    @media (min-width: $mln-breakpoint) {
+        position: static;
+        top: auto;
+        left: auto;
+        overflow: visible;
+        height: $height-expander;
+
+        &[aria-hidden="true"] {
+            #{$focusable-selectors} {
+                visibility: visible;
+
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+    }
+}
+
+.mln__expander--showing {
+    max-height: none;
+    height: auto;
+}
+
+.mln__expander--transitioning {
+    transition: height $transition-speed-expander $transition-ease-expander;
+
+    will-change: transform;
+}
+
+// Navigation ul
+.mln__list {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: $color-menu-primary;
+    list-style-type: none;
+    // Set list item padding left for each level
+
+    @include level-multiplier('li', 5);
+
+    // Base styling before js adjusts DOM
+    > li > a,
+    .mln__child__nav a,
+    .mln__child__list a,
+    .mln__toggle-link {
+        display: block;
+        padding-top: $padding-top-menu-item;
+        padding-right: $padding-right-menu-item;
+        padding-bottom: $padding-bottom-menu-item;
+        min-height: $height-menu-item;
+        width: 100%;
+        border: 0;
+        color: $color-menu-link;
+        text-align: left;
+        text-decoration: none;
+        font-size: inherit;
+        line-height: 1.6;
+    }
+
+    > li > ul,
+    .mln__child__mega-menu {
+        display: none;
+    }
+
+    // Nested element styling (after DOM is modified)
+    .mln__child__collapse {
+        .mln__child__list,
+        .mln__child__mega-menu {
+            display: block;
+        }
+
+        #{$focusable-selectors} {
+            transition: visibility $transition-speed-child-menu linear;
+        }
+
+        &[aria-hidden="true"] {
+            #{$focusable-selectors} {
+                visibility: hidden;
+
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+    }
+
+    .mln__toggle-btn,
+    .mln__toggle-indicatior {
+        height: 100%;
+    }
+}
+
+
+// Element styling (after DOM is modified)
+.mln__child__collapse {
+    overflow: hidden;
+    height: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+    will-change: transform;
+}
+
+.mln__child__list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.mln__child__mega-menu {
+    margin-right: auto;
+    margin-left: auto;
+    padding: $padding-mega-outer;
+    background-color: $color-mega-menu-bg;
+}
+
+.mln__child__nav {
+    position: relative;
+
+    // Hack to avoid double click on iOS Safari
+    &:before {
+        content: '';
+        display: block;
+        width: $width-toggle-button;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        cursor: pointer;
+    }
+
+    a,
+    .mln__toggle-link {
+        padding-right: ($width-toggle-button + 10);
+    }
+
+    @media (min-width: $mln-breakpoint) {
+
+        // Hack to avoid double click on iOS Safari
+        &:before {
+            width: $width-toggle-button-above-breakpoint;
+        }
+    }
+}
+
+.mln__has-child--showing {
+    > .mln__child__collapse {
+        height: auto;
+    }
+}
+
+.mln__child--transitioning {
+    transition: height $transition-speed-child-menu $transition-ease-child-menu;
+
+    will-change: transform;
+}
+
+
+// Whole link expand related
+.mln--whole-link-expand {
+    .mln__toggle-btn {
+        visibility: hidden;
+    }
+}
+
+.mln--top-level-whole-link-expand {
+    .mln__toggle-link + .mln__toggle-btn {
+        visibility: hidden;
+    }
+
+    .mln__child__nav {
+
+        // Hack to avoid double click on iOS Safari
+        &:before {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+// Breakpoint media query
+@media (min-width: $mln-breakpoint) {
+
+    // Modifier that converts the stacked menu to the horizontal menu
+    .mln--navbar {
+        position: relative;
+        z-index: 2;
+        height: $height-navbar;
+
+        .mln__expander {
+            width: auto;
+        }
+
+        .mln__child__nav {
+            position: relative;
+
+            a {
+                padding-right: $width-toggle-button-above-breakpoint + .313;
+            }
+
+            .mln__toggle-btn, .mln__toggle-indicatior {
+                width: $width-toggle-button-above-breakpoint;
+            }
+        }
+
+        .mln__child--overflow-visible {
+            overflow: visible;
+        }
+
+        .mln__list {
+            float: left;
+            height: $height-menu-item;
+
+            a {
+                padding-left: $padding-menu-item-inset-above-breakpoint !important;
+            }
+
+            // Styles before js adjusts DOM
+            > li {
+                float: left;
+                border: 0;
+
+                > div:not(.mln__child__nav):not(.mln__child__collapse) {
+                    display: none;
+                }
+
+                .mln__child__mega-menu {
+                    display: block;
+                }
+            }
+
+            .mln__has-child {
+                position: relative;
+            }
+
+            .mln__child__collapse {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                padding: 0;
+                min-width: $width-child-menu-above-breakpoint;
+                width: 100%;
+                background-color: $color-menu-primary;
+
+                .mln__child__collapse {
+                    top: 0;
+                    left: 100%;
+                }
+            }
+
+            .mln__has-child--mega-menu {
+                position: static;
+
+                > .mln__child__collapse {
+                    width: 100%;
+
+                     > .mln__child__collapse__helper > .mln__child__list {
+                        float: left;
+                        margin-top: $padding-menu-item-inset;
+                        width: 33.33333%;
+
+                        .mln__child__collapse {
+                            max-width: 13.75rem;
+                        }
+                    }
+                }
+            }
+
+            > .mln__child--flow-right {
+                > .mln__child__collapse {
+                    right: 0;
+                    left: auto;
+                }
+
+                > .mln__child__nav .mln__toggle-btn,
+                > .mln__child__nav .mln__toggle-indicatior {
+                    -webkit-transform: rotate(0);
+                    -ms-transform: rotate(0);
+                    transform: rotate(0);
+                }
+            }
+
+            // Second+ level flow right styles
+            ul .mln__child--flow-right {
+                > .mln__child__collapse {
+                    right: 100%;
+                    left: auto;
+                }
+
+                > .mln__child__nav {
+                    .mln__toggle-btn,
+                    .mln__toggle-indicatior {
+                        -ms-filter: "FlipH";
+                        filter: FlipH;
+                        -webkit-transform: scaleX(-1);
+                        -moz-transform: scaleX(-1);
+                        transform: scaleX(-1);
+                    }
+                }
+            }
+        }
+    }
+
+    .mln__list {
+        background-color: transparent;
+    }
+}
+
+// Mega menu backdrop
+.mln-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: $color-backdrop;
+    content: '';
+    opacity: 0;
+    transition: opacity ($transition-speed-expander - 200) linear;
+    pointer-events: none;
+
+    @media (min-width: $mln-breakpoint) {
+        display: block;
+    }
+}
+
+.js-menu-showing,
+.js-mega-menu-showing {
+    .mln-backdrop {
+        opacity: $opacity-backdrop;
+        pointer-events: auto;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,18 @@
+//
+// iOS workaround for fixed site headers
+//
+// iOS Safari does not allow disabling scroll on certain elements unless that
+// element has position fixed. The problem with this is when the off canvas is
+// activated the users loses the current location in the main body area because it
+// jumps to the top. This css along with some js allows iOS Safari to keep the
+// content location.
+
+.has-header-fixed {
+    &.js-off-canvas-showing {
+        &.is-ios {
+            .l-canvas {
+                position: fixed;
+            }
+        }
+    }
+}

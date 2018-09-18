@@ -1,0 +1,149 @@
+.logo-placeholder {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: .813rem;
+    margin-left: .75rem;
+    width: 2.75rem;
+    height: 1.313rem;
+
+    &:before,
+    &:after {
+        position: absolute;
+        display: block;
+        width: 2.1rem;
+        height: 2.1rem;
+        border-radius: .063rem;
+        background-color: #fff;
+        content: '';
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    &:before {
+        top: .625rem;
+        right: .063rem;
+    }
+
+    &:after {
+        top: 1.125rem;
+        left: -.438rem;
+    }
+}
+
+.logo-placeholder__sun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .563rem;
+    height: .563rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.hero-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.hero {
+    display: table-cell;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background: lighten(#000, 97%);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.page-heading {
+    width: 100%;
+    font-size: 1.75rem;
+    line-height: 1.1;
+}
+
+.page__content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.25rem;
+
+    > :first-child {
+        margin-top: 0;
+    }
+}
+
+.col-wrapper {
+    margin-right: -.625rem;
+    margin-left: -.625rem;
+
+    &:after {
+        display: block;
+        visibility: hidden;
+        clear: both;
+        height: 0;
+        content: ' ';
+        font-size: 0;
+    }
+}
+
+.col {
+    margin-bottom: 2.5rem;
+    padding-right: .625rem;
+    padding-left: .625rem;
+}
+
+.skeleton__box {
+    margin-bottom: .625rem;
+    padding: .625rem;
+    min-height: 11.250rem;
+    width: 100%;
+    background-color: lighten(#dfdfdf, 5%);
+}
+
+.skeleton__title,
+.skeleton__paragraph {
+    display: inline-block;
+    margin-bottom: .3rem;
+    height: 2em;
+    background-color: #dfdfdf;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.skeleton__paragraph {
+    height: .7em;
+    background-color: lighten(#dfdfdf, 5%);
+    color: lighten(#dfdfdf, 5%);
+}
+
+@media (min-width: $off-canvas-breakpoint) {
+    .col {
+        float: left;
+    }
+
+    .col--3 {
+        width: 25%;
+    }
+
+    .col--4 {
+        width: 33.33333%;
+    }
+
+    .col--6 {
+        width: 50%;
+    }
+
+    .col--8 {
+        width: 66.66666%;
+    }
+
+    .skeleton__box {
+        min-height: 17.5rem;
+    }
+}

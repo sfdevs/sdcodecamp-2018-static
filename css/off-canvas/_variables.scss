@@ -1,0 +1,71 @@
+//
+// Transition specific
+//
+
+$transition-slide-over-duration: 500ms !default;
+$transition-slide-over-ease: cubic-bezier(.19, 1, .22, 1) !default;
+
+
+
+//
+// Widths
+//
+
+$screen-xs: 480px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+$off-canvas-breakpoint: $screen-sm !default;
+
+$width-off-canvas: 11.25rem !default;
+
+
+
+//
+// Heights
+//
+
+$height-site-header: 3rem !default;
+
+
+
+//
+// Toggle button
+//
+
+$width-hamburger-button: 3rem !default;
+$width-hamburger-bun: 20px !default;
+$height-hamburger-button: 3rem !default;
+$height-hamburger-bun: 3px !default;
+
+
+//
+// Spacing
+//
+
+$padding-nav-item: 1rem !default;
+
+
+
+//
+// Colors
+//
+
+$color-bg-hamburger-bun: white !default;
+$color-gray-1000: #2C3230 !default;
+$color-bg-hamburger-button: $color-gray-1000 !default;
+
+
+
+//
+// Misc
+//
+
+$border-wire: .063rem solid lighten(black, 95%);
+
+
+
+//
+// Font/text related
+//
+$font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;

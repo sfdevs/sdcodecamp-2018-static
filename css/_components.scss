@@ -1,0 +1,118 @@
+//
+// Component related
+//
+
+// Panelled list
+.c-list-panelled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        background-color: white;
+        margin-bottom: rem(2);
+        padding: 1.4rem;
+
+        > *:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Avatar
+.c-avatar {
+    width: rem(17);
+    height: rem(17);
+
+    img {
+        width: 100%;
+    }
+}
+
+// WYSIWYG
+.c-wysiwyg {
+    p,
+    ul,
+    ol,
+    img,
+    embed,
+    iframe,
+    table,
+    blockquote,
+    .embed-responsive {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        strong {
+            font-weight: 900;
+        }
+    }
+
+    h1, .h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    h2, .h2 {
+        margin-bottom: 1.25rem;
+    }
+
+    h3, .h3 {
+        margin-bottom: 1rem;
+    }
+
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        margin-bottom: .75rem;
+    }
+
+    hr {
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 100%;
+        width: auto;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    blockquote {
+        padding-left: 1rem;
+        border-left: .25rem solid gray;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    .float-right,
+    .float-left {
+        display: block;
+        float: none !important;
+    }
+    @media (min-width: 560px) {
+        .float-right {
+            float: right !important;
+            margin-left: 1rem;
+            max-width: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .float-left {
+            float: left !important;
+            margin-right: 1rem;
+            max-width: 50%;
+            margin-bottom: 1rem;
+        }
+    }
+}

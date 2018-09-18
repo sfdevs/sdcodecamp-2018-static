@@ -1,0 +1,65 @@
+/*
+ * Menu button
+ */
+
+.toggle-hamburger {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: table;
+    padding: 0;
+    width: $width-hamburger-button;
+    height: $height-hamburger-button;
+    border: none;
+    background: $color-bg-hamburger-button;
+    vertical-align: middle;
+    cursor: pointer;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    @include no-select();
+}
+
+.toggle-hamburger__wrapper {
+    display: table-cell;
+    width: $width-hamburger-button;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.toggle-hamburger__bun {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: $height-hamburger-bun;
+    width: $width-hamburger-bun;
+    height: $height-hamburger-bun;
+    border-radius: .125rem;
+    background: $color-bg-hamburger-bun;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Styles when off canvas is showing */
+
+.js-off-canvas-showing {
+    .toggle-hamburger--to-x {
+        .toggle-hamburger__bun {
+            display: none;
+
+            &:first-child {
+                display: block;
+
+                @include rotate(-45deg);
+            }
+
+            &:last-child {
+                display: block;
+                margin-top: - $height-hamburger-bun * 2;
+
+                @include rotate(45deg);
+            }
+        }
+    }
+}

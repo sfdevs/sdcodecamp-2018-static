@@ -1,0 +1,155 @@
+$prefixes: -webkit-, -o-, -ms-, "";
+$browser-context: 14;
+
+// Border radius
+@mixin border-radius($size...) {
+	@if length($size) == 1 {
+		border-radius: $size;
+	} @else {
+		@include custom-border-radius($size...);
+	}
+}
+
+@mixin custom-border-radius($topLeft: 0, $topRight: 0, $bottomRight: 0, $bottomLeft: 0) {
+	@each $prefix in $prefixes {
+		@if $topLeft != 0 { border-top-left-radius: $topLeft; }
+		@if $topRight != 0 { border-top-right-radius: $topRight; }
+		@if $bottomRight != 0 { border-bottom-right-radius: $bottomRight; }
+		@if $bottomLeft != 0 { border-bottom-left-radius: $bottomLeft; }
+	}
+}
+
+@mixin background-gradient($startColor, $endColor, $orientation) {
+    background: $startColor;
+
+    @if $orientation == 'vertical' {
+      background: -webkit-linear-gradient(top, $startColor, $endColor);
+      background: linear-gradient(to bottom, $startColor, $endColor);
+    } @else if $orientation == 'horizontal' {
+      background: -webkit-linear-gradient(left, $startColor, $endColor);
+      background: linear-gradient(to right, $startColor, $endColor);
+    } @else {
+      background: -webkit-radial-gradient(center, ellipse cover, $startColor, $endColor);
+      background: radial-gradient(ellipse at center, $startColor, $endColor);
+    }
+}
+
+@mixin remove-focus-outline(){
+    &:focus {
+        outline: 0;
+    }
+}
+
+@mixin rotate($deg) {
+    -ms-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+@mixin translateX($x) {
+    @each $prefix in $prefixes {
+        #{$prefix}transform: translateX($x);
+    }
+}
+
+@mixin translateY($x) {
+    @each $prefix in $prefixes {
+        #{$prefix}transform: translateY($x);
+    }
+}
+
+@mixin translate3d($x, $y, $z) {
+    @each $prefix in $prefixes {
+        #{$prefix}transform: translate3d($x, $y, $z);
+    }
+}
+
+@mixin translateZ($z) {
+    @each $prefix in $prefixes {
+        #{$prefix}transform: translateZ($z);
+    }
+}
+
+@mixin multi-transitions($transitions...){
+	@each $prefix in $prefixes {
+		#{$prefix}transition: $transitions;
+	}
+}
+
+@mixin scale($x){
+     @each $prefix in $prefixes {
+		#{$prefix}transform: scale($x);
+	}
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow:$top $left $blur $color #{$inset};
+  -moz-box-shadow:$top $left $blur $color #{$inset};
+  box-shadow:$top $left $blur $color #{$inset};
+}
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+@mixin font-smoothing {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin no-select {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@mixin transition-duration($x) {
+	-webkit-transition-duration: $x;
+    transition-duration: $x;
+}
+
+// loops through all arguments and prefixes the ones that need it (in this case only transform)
+@function vendor-args($arg, $vendor) {
+    $result: ();
+    @each $i in $arg {
+      @if $i == transform { $result: append($result, #{$vendor}$i); }
+      @else { $result: append($result, $i); }
+    }
+  @return $result;
+}
+
+// general vendor mixin
+@mixin vendor($property, $args...){
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+    $out: null;
+    @each $arg in nth($args,1) {
+      $out: ($out, vendor-args($arg, $vendor));
+    }
+    #{$vendor}#{$property}: $out;
+  }
+}
+
+// general transition mixin
+@mixin transitions($args...) {
+  @include vendor(transition, $args);
+}
+
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+	> .content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+}

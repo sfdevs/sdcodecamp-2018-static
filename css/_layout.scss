@@ -1,0 +1,128 @@
+//
+// Layout
+//
+
+.l-bg-map {
+
+}
+
+.l-skip-nav {
+    position: absolute !important;
+    top: -100rem;
+    left: 0;
+    z-index: 3;
+    transition: none !important;
+
+    &:focus {
+        top: 0;
+        outline-offset: -2px;
+        box-shadow: none;
+    }
+}
+
+.l-header {
+    background-color: white;
+}
+
+.l-main,
+.l-footer {
+    position: relative;
+    z-index: 1
+}
+
+.l-logo {
+    padding: .625rem .625rem 0 0;
+    color: $color-night-sky;
+    text-decoration: none !important;
+    font-family: 'Knewave', sans-serif;
+
+    img {
+        width: 2.688rem;
+        height: 1.875rem;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: inherit;
+    }
+}
+
+.l-logo__text {
+    position: relative;
+    top: 1px;
+}
+
+.l-logo--header {
+    position: relative;
+    z-index: 1;
+    padding: .625rem .625rem .5rem;
+    // background-color: $color-secondary;
+
+    img {
+        width: 2.688rem;
+        height: 1.875rem;
+    }
+
+    &:focus {
+        outline-offset: -2px;
+    }
+}
+
+.l-navbar {
+    @media (min-width: $off-canvas-breakpoint) {
+        position: static;
+    }
+}
+
+.has-header-fixed .l-off-canvas {
+    @media (min-width: $off-canvas-breakpoint) {
+        height: 3rem;
+    }
+}
+
+.l-canvas {
+    min-height: 0;
+    background-color: transparent;
+}
+
+.l-off-canvas {
+    background-color: white;
+
+    @media (min-width: $off-canvas-breakpoint) {
+        position: relative;
+        z-index: 0;
+        background-color: transparent;
+    }
+}
+
+.l-footer {
+    background-color: white;
+
+    &:after {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        content: '';
+    }
+}
+
+.toggle-off-canvas {
+    z-index: 1;
+    transition: opacity 100ms ease-in-out;
+}
+
+.l-logo--off-canvas {
+    margin-left: 1rem;
+}
+
+// .js-spy-section {
+//     background-color: #f3f3f0;
+//     transition: background-color 200ms linear;
+// }
+//
+// .js-spy-section--active {
+//     background-color: transparent;
+// }

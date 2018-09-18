@@ -1,0 +1,200 @@
+// Menu expander related
+.mln__expand-btn {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    width: $width-toggle-button;
+    height: $height-toggle-button;
+    border: 0;
+    background-color: $color-menu-primary;
+    color: white;
+    text-indent: -9999px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.mln__expand-btn__burger {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1.438rem;
+    height: .938rem;
+
+    &:after, &:before {
+        position: absolute;
+        content: '';
+    }
+
+    &:before {
+        top: -.375rem;
+    }
+
+    &:after {
+        bottom: -.188rem;
+    }
+}
+
+.mln__expand-btn__burger,
+.mln__expand-btn__burger:before,
+.mln__expand-btn__burger:after {
+    position: relative;
+    display: block;
+    width: 1.2rem;
+    height: .188rem;
+    background-color: $color-burger-bar;
+
+    @include border-radius(1px);
+}
+
+// Child menu toggle button
+.mln__toggle-btn,
+.mln__toggle-indicatior {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    width: $width-toggle-button;
+    height: $height-toggle-button;
+    border: 0;
+    background-color: darken($color-menu-primary, 5%);
+    color: $color-toggle-sr-only;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: -9999px;
+    line-height: 0;
+    cursor: pointer;
+
+    @include border-radius(0);
+    -webkit-appearance: none;
+
+    &:hover, &:focus {
+        background-color: darken($color-menu-primary, 10%);
+    }
+}
+
+// Button symbol related
+.mln__toggle-btn__symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin-top: -.156rem;
+    margin-left: -.344rem;
+    width: $width-toggle-symbol-chevron;
+    width: .75rem;
+    height: $height-toggle-symbol-chevron;
+    transition: transform 100ms ease-in-out;
+
+    &:before, &:after {
+        position: absolute;
+        top: .125rem;
+        display: block;
+        width: .5rem;
+        height: 0;
+        border-top: 3px solid $color-menu-link;
+        // background-color: $color-menu-link;
+        content: '';
+        transition: transform 150ms ease-in-out;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+
+        @include border-radius(1px);
+    }
+
+    &:before {
+        left: 0;
+        -webkit-transform: rotate(45deg) translateZ(0);
+        -ms-transform: rotate(45deg) translateZ(0);
+        transform: rotate(45deg) translateZ(0);
+    }
+
+    &:after {
+        right: 0;
+        -webkit-transform: rotate(-45deg) translateZ(0);
+        -ms-transform: rotate(-45deg) translateZ(0);
+        transform: rotate(-45deg) translateZ(0);
+    }
+}
+
+.mln__has-child--showing {
+    > .mln__child__nav {
+        .mln__toggle-btn__symbol {
+            &:before {
+                left: 0;
+                -webkit-transform: rotate(-45deg) translateZ(0);
+                -ms-transform: rotate(-45deg) translateZ(0);
+                transform: rotate(-45deg) translateZ(0);
+            }
+
+            &:after {
+                right: 0;
+                -webkit-transform: rotate(45deg) translateZ(0);
+                -ms-transform: rotate(45deg) translateZ(0);
+                transform: rotate(45deg) translateZ(0);
+            }
+        }
+    }
+}
+
+@media (min-width: $mln-breakpoint) {
+    .mln--navbar {
+        .mln__toggle-btn,
+        .mln__toggle-indicatior {
+            background-color: transparent;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        .mln__expand-btn {
+            display: none;
+        }
+
+        .mln__child__collapse {
+            .mln__toggle-btn__symbol {
+                -webkit-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+                transform: rotate(270deg);
+            }
+        }
+
+        // TODO: Write a top level class to the top level collapse nav
+        // so these aren't so specific
+        .mln__has-child--showing {
+            > .mln__child__nav {
+                .mln__toggle-btn__symbol {
+                    -webkit-transform: translate3d(0, .188rem, 0);
+                    -ms-transform: translate3d(0, .188rem, 0);
+                    transform: translate3d(0, .188rem, 0);
+
+                    &:before {
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                    }
+
+                    &:after {
+                        -webkit-transform: rotate(-45deg);
+                        -ms-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+
+            .mln__child__collapse {
+                .mln__has-child--showing {
+                    > .mln__child__nav {
+                        .mln__toggle-btn__symbol {
+                            -webkit-transform: rotate(270deg) translate3d(0, .188rem, 0);
+                            -ms-transform: rotate(270deg) translate3d(0, .188rem, 0);
+                            transform: rotate(270deg) translate3d(0, .188rem, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

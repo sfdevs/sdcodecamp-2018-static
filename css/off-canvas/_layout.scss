@@ -1,0 +1,239 @@
+//
+// Site surround helpers and elements
+//
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+// Helpers
+.slide-over-transition {
+    -webkit-backface-visibility: hidden;
+    @include transitions(transform $transition-slide-over-duration $transition-slide-over-ease);
+}
+
+.sr-only {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+}
+
+.js-tabfix {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 0;
+    height: 0;
+
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+
+    @media (min-width: $off-canvas-breakpoint) {
+        display: none;
+    }
+}
+
+.l-body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.l-surround {
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+}
+
+.l-header {
+    position: relative;
+    z-index: 2;
+    height: $height-site-header;
+
+    @media (min-width: $off-canvas-breakpoint) {
+        background: #fff;
+    }
+
+    .toggle-off-canvas {
+        float: left;
+    }
+}
+
+.toggle-off-canvas {
+    @media (min-width: $off-canvas-breakpoint) {
+        display: none !important;
+    }
+}
+
+.l-header__elements {
+    position: relative;
+    margin: 0 auto;
+    height: $height-site-header;
+}
+
+.l-off-canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -$width-off-canvas;
+    z-index: 10;
+    width: $width-off-canvas;
+    height: 100%;
+
+    @include remove-focus-outline();
+
+    @media (min-width: $off-canvas-breakpoint) {
+        position: relative;
+        left: 0;
+        padding-bottom: inherit;
+        width: 100%;
+        height: auto;
+        min-height: 0 !important;
+        border: none;
+        background: transparent;
+    }
+
+    .toggle-off-canvas {
+        float: none;
+    }
+}
+
+
+.l-nav {
+    @media (min-width: $off-canvas-breakpoint) {
+        display: block;
+        float: right;
+    }
+}
+
+.l-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    a {
+        display: block;
+        padding: $padding-nav-item;
+    }
+
+    @media (min-width: $off-canvas-breakpoint) {
+        li {
+            float: left;
+        }
+    }
+}
+
+.l-canvas {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    min-height: 30rem;
+    min-height: 100vh;
+    width: 100%;
+    background: white;
+}
+
+// Completely hide l-off-canvas
+.js-l-off-canvas-hide {
+    visibility: hidden;
+
+    @media (min-width: $off-canvas-breakpoint) {
+        visibility: visible;
+    }
+}
+
+// Invisible overlay that's present when off canvas is showing
+.l-off-canvas-overlay {
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+// Styles when off canvas is showing
+.js-off-canvas-showing {
+    .l-off-canvas-overlay {
+        right: 0;
+        display: block;
+        opacity: 1;
+
+        @include translateX($width-off-canvas);
+
+        @media (min-width: $off-canvas-breakpoint) {
+            display: none;
+        }
+    }
+
+    .slide-over-transition {
+        right: 0;
+
+        @include translateX($width-off-canvas);
+
+        @media (min-width: $off-canvas-breakpoint) {
+            right: auto;
+            left: 0;
+
+            @include translateX(0);
+        }
+    }
+}
+
+// Add "off-canvas-right" class to <body> tag to get the off canvas panel to show up on the right
+.off-canvas-right {
+    .l-off-canvas {
+        right: -$width-off-canvas;
+        left: auto;
+
+        @media (min-width: $off-canvas-breakpoint) {
+            right: 0;
+            left: auto;
+        }
+
+        .toggle-off-canvas {
+            float: none;
+            margin-left: auto;
+        }
+    }
+
+    .toggle-off-canvas {
+        float: right;
+    }
+
+    &.js-off-canvas-showing {
+        .l-off-canvas-overlay {
+            left: 0;
+
+            @include translateX(-$width-off-canvas);
+        }
+
+        .slide-over-transition {
+            left: 0;
+
+            @include translateX(-$width-off-canvas);
+
+            @media (min-width: $off-canvas-breakpoint) {
+                left: 0;
+
+                @include translateX(0);
+            }
+        }
+    }
+}

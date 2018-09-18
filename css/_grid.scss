@@ -1,0 +1,14 @@
+//
+// Grid additions
+//
+
+.container--outer {
+    padding-right: 2.188rem;
+    padding-left: 2.188rem;
+}
+
+.container--wide {
+    @media (min-width: 1580px) {
+        max-width: 1440px
+    }
+}

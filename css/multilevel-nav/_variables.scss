@@ -1,0 +1,63 @@
+//
+// Static variables
+// ----------------------------------------
+
+// Colors
+$color-menu-primary: #2C3230 !default;
+$color-menu-link: white !default;
+$color-burger-bar: $color-menu-link !default;
+$color-mega-menu-bg: $color-menu-primary !default;
+$color-toggle-sr-only: $color-menu-primary !default;
+$color-backdrop: #fff !default;
+
+// Opacity
+$opacity-backdrop: .8 !default;
+
+// Transition speeds
+$transition-speed-child-menu: 350ms !default;
+$transition-ease-child-menu: cubic-bezier(.19, 1, .22, 1) !default;
+$transition-speed-expander: $transition-speed-child-menu !default;
+$transition-ease-expander: $transition-ease-child-menu !default;
+
+// Screen widths
+$mln-breakpoint: 768px !default;
+
+// Font/text related
+$font-family-sans-serif: 'Helvetica Neue', Arial, sans-serif !default;
+
+// Sizes and spacing
+$padding-top-menu-item: .688rem !default;
+$padding-right-menu-item: 1rem !default;
+$padding-bottom-menu-item: .688rem !default;
+$padding-menu-item: $padding-top-menu-item $padding-right-menu-item !default;
+$padding-menu-item-inset: 1rem !default;
+$padding-mega-outer: 1rem !default;
+$height-menu-item: 3rem !default;
+$height-expander: 3rem !default;
+$height-navbar: 3rem !default;
+$width-toggle-button: 2.813rem !default;
+$height-toggle-button: 3rem !default;
+
+// Chevron toggle symbol specifics
+$width-toggle-symbol-chevron: .75rem !default;
+$height-toggle-symbol-chevron: .563rem !default;
+
+// Selectors
+$focusable-selectors: 'a[href], area[href], input, select, textarea, button, iframe, object, embed, [tabindex], [contenteditable]' !default;
+
+// Projected levels deep of child menus
+$levels-deep: 5 !default;
+
+
+
+//
+// Variables above breakpoint width
+// ----------------------------------------
+
+// Sizes and spacing
+$padding-menu-item-above-breakpoint: $padding-menu-item !default;
+$padding-menu-item-inset-above-breakpoint: $padding-menu-item-inset !default;
+$height-menu-item-above-breakpoint: $height-menu-item !default;
+$height-navbar-above-breakpoint: $height-navbar !default;
+$width-child-menu-above-breakpoint: 12.5rem !default;
+$width-toggle-button-above-breakpoint: 2.188rem !default;

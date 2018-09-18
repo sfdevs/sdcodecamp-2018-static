@@ -1,0 +1,54 @@
+//
+// General
+//
+
+$color-primary: black;
+$color-secondary: gold;
+$color-tertiary: aquamarine;
+$color-link: blue;
+$color-bright: #fce752;
+$color-super-light: #f3f3f0;
+$color-focus-bg: white;
+$color-toggle-sr-only: $color-primary;
+$color-common-border: lighten(gray, 30%);
+$color-night-sky: #252525;
+
+$spacing-common-sm: 1.5rem;
+
+$screen-lg: 992px;
+
+$box-shadow-common: 2px 2px 4px rgba(0, 0, 0, .1);
+
+
+//
+// Multilevel Nav
+//
+
+$mln-breakpoint: 992px;
+$transition-speed-child-menu: 250ms;
+
+// Colors
+$color-menu-primary: white;
+$color-menu-link: $color-night-sky;
+$color-mega-menu-bg: darken(white, 3%);
+$color-backdrop: $color-night-sky;
+
+// Opacity
+$opacity-backdrop: .5;
+
+// Widths
+$width-toggle-button: 3rem;
+$padding-menu-item-inset: 1rem;
+
+
+
+//
+// Off canvas
+//
+
+$off-canvas-breakpoint: 992px;
+$width-off-canvas: 20rem;
+$site-header-height: 3rem;
+
+$color-bg-hamburger-bun: black;
+$color-bg-hamburger-button: transparent;
