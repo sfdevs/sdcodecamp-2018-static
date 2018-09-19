@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Information on South Dakota Code Camp</title>
-    <link>https://sfdevs.github.io/sdcodecamp-2018-static/information/</link>
+    <link>https://southdakotacodecamp.com/information/</link>
     <description>Recent content in Information on South Dakota Code Camp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Sep 2018 08:51:54 -0500</lastBuildDate>
     
-	<atom:link href="https://sfdevs.github.io/sdcodecamp-2018-static/information/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://southdakotacodecamp.com/information/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code of Conduct</title>
-      <link>https://sfdevs.github.io/sdcodecamp-2018-static/information/code-of-conduct/</link>
+      <link>https://southdakotacodecamp.com/information/code-of-conduct/</link>
       <pubDate>Wed, 19 Sep 2018 08:52:24 -0500</pubDate>
       
-      <guid>https://sfdevs.github.io/sdcodecamp-2018-static/information/code-of-conduct/</guid>
+      <guid>https://southdakotacodecamp.com/information/code-of-conduct/</guid>
       <description>South Dakota Code Camp is a community conference intended for networking and collaboration in the developer community.
 We value the participation of each member of the SFDevs community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored by SFDevs or not.
 To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any SFDevs event are required to conform to the following Code of Conduct.</description>
