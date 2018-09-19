@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Marshall Crosby -- Designer
+    Tyler Harms -- Developer
+
+# THANKS
+
+    Blend Interactive -- Design
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Normalize.css, Bootstrap
+    Hugo
