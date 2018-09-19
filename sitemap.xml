@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sfdevs.github.io/sdcodecamp-2018-static/register/</loc>
+    <lastmod>2018-09-19T09:44:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sfdevs.github.io/sdcodecamp-2018-static/sponsors/</loc>
+    <lastmod>2018-09-19T09:00:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sfdevs.github.io/sdcodecamp-2018-static/information/code-of-conduct/</loc>
+    <lastmod>2018-09-19T08:52:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sfdevs.github.io/sdcodecamp-2018-static/information/</loc>
+    <lastmod>2018-09-19T08:51:54-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sfdevs.github.io/sdcodecamp-2018-static/sessions/</loc>
     <lastmod>2018-09-18T12:54:32-05:00</lastmod>
   </url>
