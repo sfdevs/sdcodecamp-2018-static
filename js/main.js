@@ -176,7 +176,7 @@ var snooperFollower = function() {
 };
 
 var snooperHtml = $('<div class="js-snooper">' +
-        '<img class="js-snooper__mug" src="assets/images/mug.png" alt="">' +
+        '<img class="js-snooper__mug" src="/images/mug.png" alt="">' +
     '</div>');
 
 var snooperMouseIdle;
