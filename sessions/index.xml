@@ -11,14 +11,5 @@
 	<atom:link href="https://southdakotacodecamp.com/sessions/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Adventures in Coding</title>
-      <link>https://southdakotacodecamp.com/sessions/adventures-in-coding/</link>
-      <pubDate>Tue, 25 Sep 2018 16:14:14 -0500</pubDate>
-      
-      <guid>https://southdakotacodecamp.com/sessions/adventures-in-coding/</guid>
-      <description>There are so many great ways to teach your kids to code. Come explore the newest and the best. We will review some of the staples, and learn some ways to keep them fresh. From dressing up Dash and Dot to lighting up an LED ring with Arduino. Then we will launch into some great new ways to get coding. We will check out the games like codingFarmers, Potato Pirates, and Hacker.</description>
-    </item>
-    
   </channel>
 </rss>
