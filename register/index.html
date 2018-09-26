@@ -182,8 +182,16 @@ if (!doNotTrack) {
 <section>
     <div class="position-relative container container--outer pt-60 pb-60 c-wysiwyg">
         <h1>Register</h1>
-        
-        <div id="eventbrite-widget-container-50443694448"></div>
+        <p>Registration is now open.</p>
+
+
+        <div id="spinner">
+            <div class="text-center">
+                <img alt="loading" class="img-fluid" src="/images/spinner.gif" />
+            </div>
+        </div>
+        <div id="eventbrite-widget-container-50443694448">
+        </div>
 
         <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -201,6 +209,10 @@ if (!doNotTrack) {
                 
                 iframeContainerHeight: 425,  
                 onOrderComplete: exampleCallback  
+            });
+            var iframe = document.getElementById('eventbrite-widget-container-50443694448').querySelector('iframe');
+            iframe.addEventListener('load', function() {
+                document.getElementById('spinner').style.display = 'none';
             });
         </script>
     </div>
