@@ -12,6 +12,88 @@
     
     
     <item>
+      <title>Getting Started With Service Fabric and Aspnet for Microservices (or Regular Services)</title>
+      <link>https://southdakotacodecamp.com/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</link>
+      <pubDate>Thu, 11 Oct 2018 09:12:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</guid>
+      <description>Microservices and distributed architectures are a hot topic to meet the needs of scaling and managing application growth. A plethora of solutions are available that aim to make creating and managing these architectures easier. Which one should you use?
+Unfortunately, that question is too large to definitely answer in a single talk. However, we can provide you some information to help choose between the choices you make. In this talk, we&amp;rsquo;ll look at Microsoft Service Fabric.</description>
+    </item>
+    
+    <item>
+      <title>Logan Drews</title>
+      <link>https://southdakotacodecamp.com/speakers/logan-drews/</link>
+      <pubDate>Thu, 11 Oct 2018 09:11:52 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/logan-drews/</guid>
+      <description>Logan Drews is a Senior Software Engineer at CHR Solutions in Sioux Falls, South Dakota and works to provide the scaling and features for ever-growing telecommunication companies.</description>
+    </item>
+    
+    <item>
+      <title>Joel Kauffman</title>
+      <link>https://southdakotacodecamp.com/speakers/joel-kauffman/</link>
+      <pubDate>Mon, 08 Oct 2018 10:55:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/joel-kauffman/</guid>
+      <description>Joel Kauffman is the lead developer for Worthington Ag Parts in Sioux Falls, SD. Joel has spoken previously at various conferences in the region, and enjoys meeting and talking with people who share his passion for technology. When he isn’t speaking or building software, Joel spends time with his wife and 4 kids, and is remodeling his 1886 house.</description>
+    </item>
+    
+    <item>
+      <title>Miles Rausch</title>
+      <link>https://southdakotacodecamp.com/speakers/miles-rausch/</link>
+      <pubDate>Mon, 08 Oct 2018 10:18:44 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/miles-rausch/</guid>
+      <description>Miles Rausch is a web developer from Sioux Falls, South Dakota. He&amp;rsquo;s a writer for people and a writer for computers. He seems destined to spend time at a keyboard. Miles currently works at Carsforsale.com where he does full-stack development on the flagship product, Carsforsale.com.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to React</title>
+      <link>https://southdakotacodecamp.com/sessions/intro-to-react/</link>
+      <pubDate>Mon, 08 Oct 2018 10:17:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/intro-to-react/</guid>
+      <description>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. Open sourced by Facebook, but used by thousands of frontend engineers, React is one of the most popular JavaScript frameworks in use today. Learn what it is, why it&amp;rsquo;s so popular and how to build your own React-powered user interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Improving Web Performance</title>
+      <link>https://southdakotacodecamp.com/sessions/improving-web-performance/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/improving-web-performance/</guid>
+      <description>This session starts with a traditional web page and shows step by step how to improve its performance and user experience! Discover performance techniques that everyone should use, then learn techniques that differ when targeting HTTP 1.1 vs. HTTP/2. Review tools that can help identify and validate sound performance best practices. Explore how to defer resource requests with lazing loading, asynchronous loading, and postponing 3rd party tag requests. Many other performance boosting techniques will also be discussed, which can reduce response time while also boosting the scalability and reliability of your site.</description>
+    </item>
+    
+    <item>
+      <title>Robert Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:30 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</guid>
+      <description>Robert Boedigheimer works for Schwans Shared Services, LLC providing business solutions with web technologies. Robert has been developing web sites for the past 20 years. He is an ASP.NET MVP, a Pluralsight author, and a 3rd degree black belt in Tae Kwon Do. Robert regularly speaks at national and international events.</description>
+    </item>
+    
+    <item>
+      <title>Adventures in Coding</title>
+      <link>https://southdakotacodecamp.com/sessions/adventures-in-coding/</link>
+      <pubDate>Tue, 25 Sep 2018 16:14:14 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/adventures-in-coding/</guid>
+      <description>There are so many great ways to teach your kids to code. Come explore the newest and the best. We will review some of the staples, and learn some ways to keep them fresh. From dressing up Dash and Dot to lighting up an LED ring with Arduino. Then we will launch into some great new ways to get coding. We will check out the games like codingFarmers, Potato Pirates, and Hacker.</description>
+    </item>
+    
+    <item>
+      <title>Kris Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:13:31 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</guid>
+      <description>I am a former computer programmer turned homeschool mom who loves learning, travel, exercise, reading, finding exciting new hobbies, and spending time with family. My favorite subjects are programming, math, and logic. Besides teaching homeschool I am a third degree black belt in Tae Kwon Do, Advanced Level Toastmaster Speaker, and group fitness instructor for Les Mills Bodyflow, and Les Milles BodyAttack. We travel constantly and make it a habit to try something different at each location including blown glass, painting classes, surfing, carving carousel animals, and trapeze class.</description>
+    </item>
+    
+    <item>
       <title>Venue</title>
       <link>https://southdakotacodecamp.com/information/venue/</link>
       <pubDate>Mon, 24 Sep 2018 16:18:26 -0500</pubDate>
@@ -28,6 +110,25 @@
       <guid>https://southdakotacodecamp.com/information/open-spaces/</guid>
       <description>&lt;p&gt;Also called Unconferences, OpenSpace is a simple methodology for self-organizing conference tracks. It relies on participation by people who have a passion for the topics to be discussed. There is no preplanned list of topics, only time slots and a space in the main meeting room where interested participants propose topics and pick time slots.
 &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I Know I Should Be Unit Testing but I Dont Know How or Where to Start</title>
+      <link>https://southdakotacodecamp.com/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</link>
+      <pubDate>Fri, 21 Sep 2018 14:44:37 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</guid>
+      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development. I usually get the a few similar responses from those who haven’t adopted this viewpoint.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kevin Logan</title>
+      <link>https://southdakotacodecamp.com/speakers/kevin-logan/</link>
+      <pubDate>Fri, 21 Sep 2018 14:43:25 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kevin-logan/</guid>
+      <description>I&amp;rsquo;ve been a developer for over 12 years at Omnitech and have worked on a variety of .Net projects. I work mostly in .Net with a focus on UI development in web applications, but lately I&amp;rsquo;ve been working with Service Fabric. I enjoy sharing links and ideas, blogging at https://www.aligneddev.net and on Twitter @aligneddev.
+I have a wonderful wife and 3 children. We&amp;rsquo;re involved in our church, homeschooling this year. I enjoy riding my bike to work, hanging out with the kids and playing guitar.</description>
     </item>
     
     <item>

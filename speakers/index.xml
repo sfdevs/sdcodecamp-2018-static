@@ -11,5 +11,60 @@
 	<atom:link href="https://southdakotacodecamp.com/speakers/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Logan Drews</title>
+      <link>https://southdakotacodecamp.com/speakers/logan-drews/</link>
+      <pubDate>Thu, 11 Oct 2018 09:11:52 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/logan-drews/</guid>
+      <description>Logan Drews is a Senior Software Engineer at CHR Solutions in Sioux Falls, South Dakota and works to provide the scaling and features for ever-growing telecommunication companies.</description>
+    </item>
+    
+    <item>
+      <title>Joel Kauffman</title>
+      <link>https://southdakotacodecamp.com/speakers/joel-kauffman/</link>
+      <pubDate>Mon, 08 Oct 2018 10:55:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/joel-kauffman/</guid>
+      <description>Joel Kauffman is the lead developer for Worthington Ag Parts in Sioux Falls, SD. Joel has spoken previously at various conferences in the region, and enjoys meeting and talking with people who share his passion for technology. When he isn’t speaking or building software, Joel spends time with his wife and 4 kids, and is remodeling his 1886 house.</description>
+    </item>
+    
+    <item>
+      <title>Miles Rausch</title>
+      <link>https://southdakotacodecamp.com/speakers/miles-rausch/</link>
+      <pubDate>Mon, 08 Oct 2018 10:18:44 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/miles-rausch/</guid>
+      <description>Miles Rausch is a web developer from Sioux Falls, South Dakota. He&amp;rsquo;s a writer for people and a writer for computers. He seems destined to spend time at a keyboard. Miles currently works at Carsforsale.com where he does full-stack development on the flagship product, Carsforsale.com.</description>
+    </item>
+    
+    <item>
+      <title>Robert Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:30 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</guid>
+      <description>Robert Boedigheimer works for Schwans Shared Services, LLC providing business solutions with web technologies. Robert has been developing web sites for the past 20 years. He is an ASP.NET MVP, a Pluralsight author, and a 3rd degree black belt in Tae Kwon Do. Robert regularly speaks at national and international events.</description>
+    </item>
+    
+    <item>
+      <title>Kris Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:13:31 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</guid>
+      <description>I am a former computer programmer turned homeschool mom who loves learning, travel, exercise, reading, finding exciting new hobbies, and spending time with family. My favorite subjects are programming, math, and logic. Besides teaching homeschool I am a third degree black belt in Tae Kwon Do, Advanced Level Toastmaster Speaker, and group fitness instructor for Les Mills Bodyflow, and Les Milles BodyAttack. We travel constantly and make it a habit to try something different at each location including blown glass, painting classes, surfing, carving carousel animals, and trapeze class.</description>
+    </item>
+    
+    <item>
+      <title>Kevin Logan</title>
+      <link>https://southdakotacodecamp.com/speakers/kevin-logan/</link>
+      <pubDate>Fri, 21 Sep 2018 14:43:25 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kevin-logan/</guid>
+      <description>I&amp;rsquo;ve been a developer for over 12 years at Omnitech and have worked on a variety of .Net projects. I work mostly in .Net with a focus on UI development in web applications, but lately I&amp;rsquo;ve been working with Service Fabric. I enjoy sharing links and ideas, blogging at https://www.aligneddev.net and on Twitter @aligneddev.
+I have a wonderful wife and 3 children. We&amp;rsquo;re involved in our church, homeschooling this year. I enjoy riding my bike to work, hanging out with the kids and playing guitar.</description>
+    </item>
+    
   </channel>
 </rss>
