@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Stalking Your House With Home Automation</title>
+      <link>https://southdakotacodecamp.com/sessions/stalking-your-house-with-home-automation/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:41 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/stalking-your-house-with-home-automation/</guid>
+      <description>Over the past two years, I&amp;rsquo;ve built a ton of sensors with the ESP8266 microcontroller platform to monitor activities around my house. I have sensors that are currently monitoring the temperature throughout my house plus two freezers in my basement. My garage has a garage door sensor to know if it is open or closed as well as a light sensor, complete with Slack integration for alerts and alarms. To top it off, I need to know when the washing machine completes it&amp;rsquo;s cycle so I monitor the vibrations of both the washer and dryer to know if they are running or not.</description>
+    </item>
+    
+    <item>
       <title>Pipelines and Readonly Ref Structs</title>
       <link>https://southdakotacodecamp.com/sessions/pipelines-and-readonly-ref-structs/</link>
       <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>

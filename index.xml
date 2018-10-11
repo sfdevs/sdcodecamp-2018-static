@@ -12,6 +12,25 @@
     
     
     <item>
+      <title>Stalking Your House With Home Automation</title>
+      <link>https://southdakotacodecamp.com/sessions/stalking-your-house-with-home-automation/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:41 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/sessions/stalking-your-house-with-home-automation/</guid>
+      <description>Over the past two years, I&amp;rsquo;ve built a ton of sensors with the ESP8266 microcontroller platform to monitor activities around my house. I have sensors that are currently monitoring the temperature throughout my house plus two freezers in my basement. My garage has a garage door sensor to know if it is open or closed as well as a light sensor, complete with Slack integration for alerts and alarms. To top it off, I need to know when the washing machine completes it&amp;rsquo;s cycle so I monitor the vibrations of both the washer and dryer to know if they are running or not.</description>
+    </item>
+    
+    <item>
+      <title>Will Bushee</title>
+      <link>https://southdakotacodecamp.com/speakers/will-bushee/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:15 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/will-bushee/</guid>
+      <description>I’m an avid technology enthusiast and a firm believer that almost any problem can be solved with a little creative thinking, the proper dataset, or by building the correct enrichment of web data. I enjoy working with kids, entrepreneurs, early-stage startups, and those struggling with the latest technology.
+When I’m not in the office, you’ll find me hanging around Queen City Bakery on Thursday mornings, attending local social events around Sioux Falls, teaching kids about technology, or online interacting with my community.</description>
+    </item>
+    
+    <item>
       <title>Pipelines and Readonly Ref Structs</title>
       <link>https://southdakotacodecamp.com/sessions/pipelines-and-readonly-ref-structs/</link>
       <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>
