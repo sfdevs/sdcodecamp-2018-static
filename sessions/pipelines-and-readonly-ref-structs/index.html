@@ -36,25 +36,25 @@
     }
 </script>
 <meta property="og:title" content="Pipelines and Readonly Ref Structs" />
-<meta property="og:description" content="Description: A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos." />
+<meta property="og:description" content="A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://southdakotacodecamp.com/sessions/pipelines-and-readonly-ref-structs/" /><meta property="article:published_time" content="2018-10-11T10:05:15-05:00"/>
 <meta property="article:modified_time" content="2018-10-11T10:05:15-05:00"/><meta property="fb:admins" content="462535307111146" />
 
 <meta itemprop="name" content="Pipelines and Readonly Ref Structs">
-<meta itemprop="description" content="Description: A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.">
+<meta itemprop="description" content="A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.">
 
 
 <meta itemprop="datePublished" content="2018-10-11T10:05:15-05:00" />
 <meta itemprop="dateModified" content="2018-10-11T10:05:15-05:00" />
-<meta itemprop="wordCount" content="171">
+<meta itemprop="wordCount" content="170">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Pipelines and Readonly Ref Structs"/>
-<meta name="twitter:description" content="Description: A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos."/>
+<meta name="twitter:description" content="A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos."/>
 <meta name="twitter:site" content="@sdcodecamp"/>
 
         
@@ -313,10 +313,9 @@ if (!doNotTrack) {
 <section>
     <div class="position-relative container container--outer pt-60 pb-60 c-wysiwyg">
         <h1>Pipelines and Readonly Ref Structs</h1>
-        <p>Description: A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET.  This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains.  Will round out the discussion with some code examples/demos.  Clearly, this will be a pretty technical talk.</p>
+        <p>A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos. Clearly, this will be a pretty technical talk.</p>
 
-<p>While it&rsquo;s possible many developers may never never need to directly interact with any of these new features, it&rsquo;s still important and interesting to see the low-level features that are available, and understand at some level how they may be improving the performance of even preexisting code.  It&rsquo;s also also worthwhile to have had an introduction in the case you find these things being used in the wild.  Finally, in some cases, these features (such as new Pipelines API) may actually significantly simplify code, particularly around I/O.</p>
-
+<p>While it&rsquo;s possible many developers may never never need to directly interact with any of these new features, it&rsquo;s still important and interesting to see the low-level features that are available, and understand at some level how they may be improving the performance of even preexisting code. It&rsquo;s also also worthwhile to have had an introduction in the case you find these things being used in the wild. Finally, in some cases, these features (such as new Pipelines API) may actually significantly simplify code, particularly around I/O.</p>
     </div>
 </section>
 
