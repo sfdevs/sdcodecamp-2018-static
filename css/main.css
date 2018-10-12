@@ -719,9 +719,7 @@ body {
   position: relative;
   color: #252525;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fce752;
-  background-attachment: fixed;
-  background-size: 36px 40px; }
+  background-color: #fce752; }
 
 h1, .h1,
 h2, .h2,
@@ -948,10 +946,10 @@ hr {
     color: white; }
 
 .btn-camp {
-  background-color: blue;
-  color: white;
+  position: relative;
   z-index: 5;
-  position: relative; }
+  background-color: blue;
+  color: white; }
   .btn-camp:hover, .btn-camp:active, .btn-camp:focus, .btn-camp:active:focus {
     background-color: #001e4d;
     color: white; }
@@ -967,135 +965,6 @@ hr {
   background: white;
   color: black; }
 
-.btn__svg {
-  position: absolute;
-  transition: all 200ms cubic-bezier(0.19, 1, 0.22, 1);
-  pointer-events: none; }
-
-.btn__svg--sky {
-  bottom: -4px;
-  left: calc(50% - 340px);
-  z-index: -3;
-  transform: scale(0);
-  transform-origin: 50% 90%; }
-
-.btn__svg--comet {
-  bottom: calc(100% + 2.5rem);
-  left: 50%;
-  width: 55px;
-  display: none;
-  transform: scale(0.5);
-  z-index: -2; }
-
-.btn__svg--moon {
-  bottom: 145%;
-  left: 38%;
-  width: .625rem;
-  opacity: 0;
-  transform: translateY(1rem); }
-
-.btn__svg--stars {
-  bottom: calc(100% - 2px);
-  left: 22%;
-  width: 4.75rem;
-  opacity: 0;
-  transform: scale(2);
-  z-index: 1; }
-
-.btn__svg--tent {
-  bottom: calc(100% - 1rem);
-  left: 39%;
-  width: 2.5625rem;
-  transform: translateY(20px) scale(0);
-  z-index: 7; }
-
-.btn__svg--pine-tree {
-  bottom: 99%;
-  left: 62%;
-  z-index: -1;
-  width: 1rem;
-  opacity: 0;
-  transform: translateY(50%); }
-
-.btn__svg--pine-tree--sm {
-  left: 72%;
-  width: .6875rem; }
-
-.btn__svg--pine-tree--left {
-  left: 25%;
-  width: .875rem;
-  transform: translateY(50%); }
-  .btn__svg--pine-tree--left.btn__svg--pine-tree--sm {
-    left: 18%;
-    width: .5rem; }
-
-.btn-presentation {
-  position: relative;
-  display: inline-block; }
-
-.cta-camp {
-  display: inline-block; }
-  .cta-camp:hover ~ .btn__svg--sky, .cta-camp:focus ~ .btn__svg--sky, .cta-camp:active ~ .btn__svg--sky {
-    transform: scale(1); }
-  .cta-camp:hover ~ .btn__svg--tent, .cta-camp:focus ~ .btn__svg--tent, .cta-camp:active ~ .btn__svg--tent {
-    transform: translateY(0) scale(1); }
-  .cta-camp:hover ~ .btn__svg--comet, .cta-camp:focus ~ .btn__svg--comet, .cta-camp:active ~ .btn__svg--comet {
-    display: block;
-    animation: falling_star 2000ms linear;
-    animation-iteration-count: 1;
-    opacity: 0; }
-  .cta-camp:hover ~ .btn__svg--pine-tree, .cta-camp:focus ~ .btn__svg--pine-tree, .cta-camp:active ~ .btn__svg--pine-tree {
-    z-index: -1;
-    opacity: 1;
-    transform: translateY(0); }
-  .cta-camp:hover ~ .btn__svg--pine-tree--left, .cta-camp:focus ~ .btn__svg--pine-tree--left, .cta-camp:active ~ .btn__svg--pine-tree--left {
-    transition-delay: 100ms; }
-    .cta-camp:hover ~ .btn__svg--pine-tree--left.btn__svg--pine-tree--sm, .cta-camp:focus ~ .btn__svg--pine-tree--left.btn__svg--pine-tree--sm, .cta-camp:active ~ .btn__svg--pine-tree--left.btn__svg--pine-tree--sm {
-      transition-delay: 50ms; }
-  .cta-camp:hover ~ .btn__svg--pine-tree--right, .cta-camp:focus ~ .btn__svg--pine-tree--right, .cta-camp:active ~ .btn__svg--pine-tree--right {
-    transition-delay: 150ms; }
-    .cta-camp:hover ~ .btn__svg--pine-tree--right.btn__svg--pine-tree--sm, .cta-camp:focus ~ .btn__svg--pine-tree--right.btn__svg--pine-tree--sm, .cta-camp:active ~ .btn__svg--pine-tree--right.btn__svg--pine-tree--sm {
-      transition-delay: 200ms; }
-  .cta-camp:hover ~ .btn__svg--stars, .cta-camp:focus ~ .btn__svg--stars, .cta-camp:active ~ .btn__svg--stars {
-    opacity: 1;
-    transition-delay: 250ms;
-    transform: scale(1.2) rotate(-5deg); }
-  .cta-camp:hover ~ .btn__svg--moon, .cta-camp:focus ~ .btn__svg--moon, .cta-camp:active ~ .btn__svg--moon {
-    opacity: 1;
-    transition-duration: 1000ms;
-    transition-delay: 500ms;
-    transform: translateY(0); }
-
-.btn__svg--cloud {
-  bottom: 147%;
-  left: 30%;
-  width: 2rem;
-  animation: floating 8s ease-in-out infinite; }
-
-.btn__svg--hatchet {
-  bottom: 109%;
-  left: 75%;
-  width: .625rem;
-  transform: rotate(18deg);
-  animation: hatchet-throw 700ms linear infinite; }
-
-.btn__svg--stump {
-  bottom: 90%;
-  left: 78%;
-  width: 1.6875rem; }
-
-@keyframes falling_star {
-  0% {
-    opacity: 0;
-    transform: translateX(0, 0, 0) scale(1); }
-  50% {
-    opacity: 0;
-    transform: translateX(150%) rotate(-4deg) scale(1); }
-  80% {
-    opacity: 1; }
-  100% {
-    transform: translate3d(-250%, 1.25rem, 0) rotate(-4deg) scale(1);
-    opacity: 0; } }
 .text-intro {
   font-size: 11vw;
   line-height: 1; }
@@ -1207,6 +1076,270 @@ hr {
     margin-right: 1rem;
     max-width: 50%;
     margin-bottom: 1rem; } }
+
+.btn-presentation {
+  position: relative;
+  display: inline-block; }
+
+.camp-element {
+  position: absolute;
+  transition: all 200ms cubic-bezier(0.19, 1, 0.22, 1);
+  pointer-events: none; }
+
+.camp-element--sky {
+  bottom: -4px;
+  left: calc(50% - 340px);
+  z-index: -3;
+  transform: scale(0);
+  transform-origin: 50% 90%; }
+
+.camp-element--comet {
+  bottom: calc(100% + 2.5rem);
+  left: 50%;
+  z-index: -2;
+  display: none;
+  width: 55px;
+  transform: scale(0.5); }
+
+.camp-element--moon {
+  bottom: 145%;
+  left: 38%;
+  width: .625rem;
+  opacity: 0;
+  transform: translateY(1rem); }
+
+.camp-element--stars {
+  bottom: calc(100% - 2px);
+  left: 22%;
+  z-index: 1;
+  width: 4.75rem;
+  opacity: 0;
+  transform: scale(2); }
+
+.camp-element--tent {
+  bottom: calc(100% - 1rem);
+  left: 39%;
+  z-index: 7;
+  width: 2.5625rem;
+  transform: translateY(20px) scale(0);
+  pointer-events: auto; }
+
+.camp-element--pine-tree {
+  bottom: 99%;
+  left: 62%;
+  z-index: -1;
+  width: 1rem;
+  opacity: 0;
+  transform: translateY(50%); }
+
+.camp-element--pine-tree--sm {
+  left: 72%;
+  width: .6875rem; }
+
+.camp-element--pine-tree--left {
+  left: 25%;
+  width: .875rem;
+  transform: translateY(50%); }
+  .camp-element--pine-tree--left.camp-element--pine-tree--sm {
+    left: 18%;
+    width: .5rem; }
+
+.cta-camp {
+  display: inline-block; }
+  .cta-camp:hover ~ .camp-element--sky, .cta-camp:focus ~ .camp-element--sky, .cta-camp:active ~ .camp-element--sky {
+    transform: scale(1); }
+  .cta-camp:hover ~ .camp-element--tent, .cta-camp:focus ~ .camp-element--tent, .cta-camp:active ~ .camp-element--tent {
+    transform: translateY(0) scale(1); }
+  .cta-camp:hover ~ .camp-element--comet, .cta-camp:focus ~ .camp-element--comet, .cta-camp:active ~ .camp-element--comet {
+    display: block;
+    opacity: 0;
+    animation: falling_star 2000ms linear;
+    animation-iteration-count: 1; }
+  .cta-camp:hover ~ .camp-element--pine-tree, .cta-camp:focus ~ .camp-element--pine-tree, .cta-camp:active ~ .camp-element--pine-tree {
+    z-index: -1;
+    opacity: 1;
+    transform: translateY(0); }
+  .cta-camp:hover ~ .camp-element--pine-tree--left, .cta-camp:focus ~ .camp-element--pine-tree--left, .cta-camp:active ~ .camp-element--pine-tree--left {
+    transition-delay: 100ms; }
+    .cta-camp:hover ~ .camp-element--pine-tree--left.camp-element--pine-tree--sm, .cta-camp:focus ~ .camp-element--pine-tree--left.camp-element--pine-tree--sm, .cta-camp:active ~ .camp-element--pine-tree--left.camp-element--pine-tree--sm {
+      transition-delay: 50ms; }
+  .cta-camp:hover ~ .camp-element--pine-tree--right, .cta-camp:focus ~ .camp-element--pine-tree--right, .cta-camp:active ~ .camp-element--pine-tree--right {
+    transition-delay: 150ms; }
+    .cta-camp:hover ~ .camp-element--pine-tree--right.camp-element--pine-tree--sm, .cta-camp:focus ~ .camp-element--pine-tree--right.camp-element--pine-tree--sm, .cta-camp:active ~ .camp-element--pine-tree--right.camp-element--pine-tree--sm {
+      transition-delay: 200ms; }
+  .cta-camp:hover ~ .camp-element--stars, .cta-camp:focus ~ .camp-element--stars, .cta-camp:active ~ .camp-element--stars {
+    opacity: 1;
+    transition-delay: 250ms;
+    transform: scale(1.2) rotate(-5deg); }
+  .cta-camp:hover ~ .camp-element--moon, .cta-camp:focus ~ .camp-element--moon, .cta-camp:active ~ .camp-element--moon {
+    opacity: 1;
+    transition-delay: 500ms;
+    transition-duration: 1000ms;
+    transform: translateY(0); }
+
+.camp-element--cloud {
+  bottom: 147%;
+  left: 30%;
+  width: 2rem;
+  animation: floating 8s ease-in-out infinite; }
+
+.camp-element--hatchet {
+  bottom: 109%;
+  left: 75%;
+  width: .625rem;
+  transform: rotate(18deg);
+  animation: hatchet-throw 700ms linear infinite; }
+
+.camp-element--stump {
+  bottom: 90%;
+  left: 78%;
+  width: 1.6875rem; }
+
+.camp-element--ufo,
+.camp-element--ufo-beam {
+  display: none; }
+
+.camp-element--abductor {
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  width: 20px; }
+
+.camp-element--ufo-beam {
+  visibility: hidden;
+  overflow: hidden; }
+
+.area-51 ~ .camp-element--ufo,
+.area-51 ~ .camp-element--ufo-beam {
+  bottom: 165%;
+  left: 70%;
+  display: block;
+  width: 40px;
+  opacity: 0; }
+.area-51 ~ .camp-element--ufo {
+  animation: hover_down 10000ms ease-in-out forwards; }
+.area-51 ~ .camp-element--ufo-beam {
+  bottom: 82%;
+  visibility: hidden;
+  animation: hover_down 10000ms ease-in-out forwards, beam_on 10000ms linear forwards; }
+  .area-51 ~ .camp-element--ufo-beam .camp-element--abductor {
+    animation: abduct 10000ms linear forwards; }
+
+@keyframes falling_star {
+  0% {
+    opacity: 0;
+    transform: translateX(0, 0, 0) scale(1); }
+  50% {
+    opacity: 0;
+    transform: translateX(150%) rotate(-4deg) scale(1); }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: translate3d(-250%, 1.25rem, 0) rotate(-4deg) scale(1); } }
+@keyframes beam_on {
+  0% {
+    visibility: hidden; }
+  6% {
+    visibility: hidden; }
+  7% {
+    visibility: visible; }
+  94% {
+    visibility: visible; }
+  95% {
+    visibility: hidden; }
+  100% {
+    visibility: hidden; } }
+@keyframes hover_down {
+  0% {
+    opacity: 1;
+    transform: translateY(-100px); }
+  5% {
+    opacity: 1;
+    transform: translateY(1px); }
+  10% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  15% {
+    opacity: 1;
+    transform: translateY(1px); }
+  20% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  25% {
+    opacity: 1;
+    transform: translateY(1px); }
+  30% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  35% {
+    opacity: 1;
+    transform: translateY(1px); }
+  40% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  45% {
+    opacity: 1;
+    transform: translateY(1px); }
+  50% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  55% {
+    opacity: 1;
+    transform: translateY(1px); }
+  60% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  65% {
+    opacity: 1;
+    transform: translateY(1px); }
+  70% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  75% {
+    opacity: 1;
+    transform: translateY(1px); }
+  80% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  85% {
+    opacity: 1;
+    transform: translateY(1px); }
+  90% {
+    opacity: 1;
+    transform: translateY(-1px); }
+  95% {
+    opacity: 1;
+    transform: translateY(1px); }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px); } }
+@keyframes abduct {
+  0% {
+    opacity: 0; }
+  19% {
+    opacity: 0; }
+  20% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-80px); } }
+.training {
+  width: 22.2222rem;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  z-index: 1000; }
+  .training.js-training--active {
+    transition: transform 15000ms linear;
+    transform: translateX(calc(-100vw - 23.3333rem)); }
+
+.training__little-mac {
+  float: right;
+  width: 32px; }
+
+.training__trainer {
+  width: 68px; }
 
 .robin-earbuds {
   position: absolute;

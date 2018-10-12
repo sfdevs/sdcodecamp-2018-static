@@ -48,14 +48,11 @@ var budsCount = 0,
     clickTimeout,
     randSoundID,
     soundIDArray = [
-        // 'c2HYDDkQi1Q?start=0&end=168', // DJ Kool: Let Me Clear My Throat (Party Favor remix)
         'RBmoQSHfO2U?start=0&end=200', // Neil Cicierega: Annoyed Grunt
-        // 'PNcCPTgoPSI?start=0&end=298', // RZA: Slow Blues (instrumental)
-        // 'X4DE1wxgMwQ?start=0&end=171', // Party Favor: Wiggle Wop
-        // 'dQ4R30OhEAE?start=0&end=293', // 8 Bit Universe: Africa
-        // 'mSHUIEDBbl4?start=0&end=131', // Neil Cicierega: 300mb
-        // '5bPAJ8rg_Ws?start=14&end=227', // 8 Bit Universe: Bulls on Parade
-        // 'HpfOTXuXOcE?start=0&end=309', // 8 Bit Universe: Killing In The Name
+        'PNcCPTgoPSI?start=0&end=298', // RZA: Slow Blues (instrumental)
+        'X4DE1wxgMwQ?start=0&end=171', // Party Favor: Wiggle Wop
+        'mSHUIEDBbl4?start=0&end=131', // Neil Cicierega: 300mb
+        'dQ4R30OhEAE?start=0&end=293', // 8 Bit Universe: Africa
     ];
 
 $('<div class="js-buds-btn" id="budsBtn"></div>').appendTo('#robinImg');
@@ -192,6 +189,91 @@ $('#squirrelImg').on('mouseenter', function(e){
     clearTimeout(snooperMouseIdle);
 });
 
+
+
+
+//
+// Abductor
+//
+
+var abductEventEl = $('.cta-camp'),
+    abductor = [
+        'svg-bigfoot.svg',
+        'svg-laptop-guy.svg',
+        'svg-cow.svg'
+    ];
+
+var ufoTimer;
+abductEventEl.on('mouseenter touchstart', function(){
+    var $this = $(this),
+        abductorSelected = Math.floor(Math.random() * abductor.length);
+        ufoHTML = $('<img class="camp-element camp-element--ufo" src="/images/svg-ufo.svg?v3" alt="">' +
+            '<div class="camp-element camp-element--ufo-beam">' +
+                '<img src="/images/svg-ufo--beam.svg?v3" alt="">' +
+                '<img class="camp-element camp-element--abductor" src="/images/' + abductor[abductorSelected] + '" alt="">' +
+            '</div>');
+
+    var eNum = 0,
+        the51 = 102;
+    $(document).on('keydown', function(e){
+        eNum = e.which + eNum;
+
+        if (eNum === the51) {
+            if ($this.is(':hover')) {
+                clearTimeout(ufoTimer);
+                ufoHTML.insertAfter($this);
+                $this.addClass('area-51');
+            }
+        } else if (eNum > the51) {
+            eNum = 0;
+        }
+    });
+
+    clearTimeout(ufoTimer);
+    ufoTimer = setTimeout(function(){
+        if ($this.is(':hover')) {
+            ufoHTML.insertAfter($this);
+            $this.addClass('area-51');
+        }
+    }, 2000);
+}).on('mouseleave touchend', function(){
+    clearTimeout(ufoTimer);
+    $(this).removeClass('area-51');
+    $('.camp-element--ufo').remove();
+    $('.camp-element--ufo-beam').remove();
+});
+
+
 $(window).on('load', function(){
     $('.remove-on-load').removeClass('remove-on-load');
+
+    $('.training')
+        .addClass('js-training--active')
+        .one('transitionend webkitTransitionEnd oTransitionEnd', function () {
+            $(this).removeClass('js-training--active');
+        });
+});
+
+
+
+
+//
+// Konami code
+//
+
+var keyNum = 0,
+    konamiNum = 583;
+$(document).on('keydown', function(e){
+    keyNum = e.which + keyNum;
+
+    if (keyNum === konamiNum) {
+        $('<iframe id="contraIntro" class="position-static" width="1" height="1" style="opacity: 0;" src="https://www.youtube.com/embed/0x4QnQbGdfU?autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>')
+            .prependTo('body');
+
+        setTimeout(function(){
+            $('#contraIntro').remove();
+        }, 10000);
+    } else if (keyNum > konamiNum) {
+        keyNum = 0;
+    }
 });
