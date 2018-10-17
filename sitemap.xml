@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/kids-track-2/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/youth/kids-track-1/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/kids-track-1/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/youth/kids-track-2/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/get-blazor-ed/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/youth/</loc>
+    <lastmod>2018-10-17T15:46:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://southdakotacodecamp.com/schedule/</loc>
+    <lastmod>2018-10-17T15:46:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</loc>
     <lastmod>2018-10-11T11:42:09-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/stalking-your-house-with-home-automation/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/stalking-your-house-with-home-automation/</loc>
     <lastmod>2018-10-11T10:23:41-05:00</lastmod>
   </url>
   
@@ -28,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/pipelines-and-readonly-ref-structs/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</loc>
     <lastmod>2018-10-11T10:05:15-05:00</lastmod>
   </url>
   
@@ -38,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/career-pathing-a-developer/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/career-pathing-a-developer/</loc>
     <lastmod>2018-10-11T09:36:07-05:00</lastmod>
   </url>
   
@@ -48,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</loc>
     <lastmod>2018-10-11T09:12:34-05:00</lastmod>
   </url>
   
@@ -68,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/intro-to-react/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/intro-to-react/</loc>
     <lastmod>2018-10-08T10:17:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/improving-web-performance/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/improving-web-performance/</loc>
     <lastmod>2018-09-25T16:17:57-05:00</lastmod>
   </url>
   
@@ -83,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/adventures-in-coding/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/adventures-in-coding/</loc>
     <lastmod>2018-09-25T16:14:14-05:00</lastmod>
   </url>
   
@@ -103,7 +113,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</loc>
     <lastmod>2018-09-21T14:44:37-05:00</lastmod>
   </url>
   
@@ -138,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://southdakotacodecamp.com/sessions/</loc>
+    <loc>https://southdakotacodecamp.com/schedule/sessions/</loc>
     <lastmod>2018-09-18T12:54:32-05:00</lastmod>
   </url>
   
