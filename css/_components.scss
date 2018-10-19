@@ -9,9 +9,9 @@
     list-style-type: none;
 
     li {
-        background-color: white;
         margin-bottom: rem(2);
         padding: 1.4rem;
+        background-color: white;
 
         > *:last-child {
             margin-bottom: 0;
@@ -103,16 +103,16 @@
     @media (min-width: 560px) {
         .float-right {
             float: right !important;
+            margin-bottom: 1rem;
             margin-left: 1rem;
             max-width: 50%;
-            margin-bottom: 1rem;
         }
 
         .float-left {
             float: left !important;
             margin-right: 1rem;
-            max-width: 50%;
             margin-bottom: 1rem;
+            max-width: 50%;
         }
     }
 }
@@ -495,11 +495,11 @@
 }
 
 .training {
-    width: 22.2222rem;
     position: absolute;
     bottom: 100%;
     left: 100%;
     z-index: 1000;
+    width: 22.2222rem;
 
     &.js-training--active {
         transition: transform 15000ms linear;
@@ -514,4 +514,70 @@
 
 .training__trainer {
     width: 68px;
+}
+
+// Eventbrite widget
+#eventbrite-widget-container-50443694448 {
+    position: relative;
+    height: 26.5625rem;
+    background-color: rgba(#fff, .3);
+    transition: none !important;
+}
+
+.loading {
+    position: absolute;
+    top: 8.125rem;
+    left: calc(50% - 7.8125rem);
+    margin-right: auto;
+    margin-left: auto;
+    width: 15.625rem;
+}
+
+.loading__text {
+    display: block;
+    margin-bottom: .625rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: .875rem;
+}
+
+
+.loading__bar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 1.9444rem;
+    background-color: #fff;
+    border: 3px solid #000;
+
+    &:after {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        content: '';
+        transform-origin: 0% 0%;
+        animation: loading__loop 10000ms cubic-bezier(.19, 1, .22, 1) infinite;
+    }
+}
+
+@keyframes loading__loop {
+    0% {
+        // transform: translate3d(-120px, 0, 0);
+        transform: scale(0, 1);
+    }
+
+    20% {
+        transform: scale(1, 1);
+    }
+
+    90% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(0, 1);
+    }
 }
