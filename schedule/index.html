@@ -289,6 +289,35 @@ if (!doNotTrack) {
 
 <p>Schedule coming soon</p>
 </article>
+        <div id="eventbrite-widget-container-50443694448">
+            <div class="loading" id="spinner">
+                <span class="loading__text">Loading<span aria-hidden="true">...</span></span>
+                <div class="loading__bar"></div>
+            </div>
+        </div>
+
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                
+                widgetType: 'checkout',
+                eventId: '50443694448',
+                iframeContainerId: 'eventbrite-widget-container-50443694448',
+
+                
+                iframeContainerHeight: 425,  
+                onOrderComplete: exampleCallback  
+            });
+            var iframe = document.getElementById('eventbrite-widget-container-50443694448').querySelector('iframe');
+            iframe.addEventListener('load', function() {
+                document.getElementById('spinner').style.display = 'none';
+            });
+        </script>
         <section>
             <ul class="c-list-panelled">
             

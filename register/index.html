@@ -280,12 +280,11 @@ if (!doNotTrack) {
         <p>Registration is now open. South Dakota Code Camp 2018 will be held at <a href="/information/venue/">Raven Industries</a> in Downtown Sioux Falls, SD.</p>
 
 
-        <div id="spinner">
-            <div class="text-center">
-                <img alt="loading" class="img-fluid" src="/images/spinner.gif" />
-            </div>
-        </div>
         <div id="eventbrite-widget-container-50443694448">
+            <div class="loading" id="spinner">
+                <span class="loading__text">Loading<span aria-hidden="true">...</span></span>
+                <div class="loading__bar"></div>
+            </div>
         </div>
 
         <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
