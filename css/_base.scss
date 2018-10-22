@@ -2,50 +2,12 @@
 // Base
 //
 
-// body {
-//     position: relative;
-//     background-color: $color-super-light;
-//     background-image: url('../images/bg-mountains.png');;
-//     background-attachment: fixed;
-//     background-position: center center;
-//     background-size: 80vw auto;
-//     background-repeat: no-repeat;
-//     color: #000;
-//     font-family: 'Montserrat', sans-serif;
-// }
-
-// body {
-//     position: relative;
-//     background-color: $color-super-light;
-//     background-image: url('../images/bg-map-transparent.png?v3');
-//     background-attachment: fixed;
-//     background-position: center .5vh;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     color: #000;
-//     font-family: 'Montserrat', sans-serif;
-// }
-
 body {
     position: relative;
-    // background-color: $color-bright;
     color: $color-night-sky;
     font-family: 'Montserrat', sans-serif;
     background-color: $color-bright;
-    // background: url('../images/bg-tent-tile.png') $color-bright;
-    // background-attachment: fixed;
-    // background-size: 36px 40px;
-//     background-image: url('../images/bg-map-transparent.png?v3');
-//     background-attachment: fixed;
-//     background-position: center .5vh;
-//     background-size: cover;
-//     background-repeat: no-repeat;
 }
-
-// h1, .h1,
-// h2, .h2 {
-//     color: red;
-// }
 
 h1, .h1,
 h2, .h2,
@@ -96,6 +58,22 @@ main {
 
     a {
         text-decoration: underline;
+    }
+
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4 {
+        text-transform: uppercase;
+        font-family: 'Knewave';
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .post {
+        margin-bottom: 2rem;
     }
 }
 
