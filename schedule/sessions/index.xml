@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Intro to DevSpaces</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/intro-to-devspaces/</link>
+      <pubDate>Mon, 22 Oct 2018 16:06:04 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/intro-to-devspaces/</guid>
+      <description>Have you ever wanted to &amp;ldquo;ship&amp;rdquo; an incremental solution? Ever wanted to collaborate with another developer on dependent services as you work through the kinks of integration? Or, have you deployed multiple variations into a public space for feedback? Azure DevSpaces provides a container playground worth considering. In this session we&amp;rsquo;ll walk through the basics of deploying and debugging in Dev Spaces.</description>
+    </item>
+    
+    <item>
       <title>Get Blazor-ed</title>
       <link>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</link>
       <pubDate>Thu, 11 Oct 2018 11:42:09 -0500</pubDate>

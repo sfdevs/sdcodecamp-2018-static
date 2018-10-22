@@ -19,6 +19,16 @@
     }
 }
 
+.c-panel {
+    margin-bottom: rem(2);
+    padding: 1.4rem;
+    background-color: white;
+
+    > *:last-child {
+        margin-bottom: 0;
+    }
+}
+
 // Avatar
 .c-avatar {
     width: rem(17);
@@ -589,5 +599,22 @@
     &:last-child {
         padding-bottom: 0;
         border-bottom: 0;
+    }
+}
+
+.c-list-sponsors {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.25rem 0;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    img {
+        margin: 0;
     }
 }

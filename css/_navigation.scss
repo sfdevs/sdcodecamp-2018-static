@@ -47,10 +47,12 @@
     }
 
     .mln__child__mega-menu {
+        font-size: .75rem;
+
         a {
             padding-left: 0 !important;
             color: $color-night-sky;
-            text-decoration: underline;
+            font-size: 1rem;
 
             &:hover {
                 text-decoration: none;

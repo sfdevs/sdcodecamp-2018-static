@@ -33,6 +33,24 @@ In this workshop we will be learning about Intellectual Property, internal worki
     </item>
     
     <item>
+      <title>Robert Jacobson</title>
+      <link>https://southdakotacodecamp.com/speakers/robert-jacobson/</link>
+      <pubDate>Mon, 22 Oct 2018 16:06:21 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/robert-jacobson/</guid>
+      <description>I&amp;rsquo;m a Software Engineer with Raven Industries working on connected solutions and infrastructure. Shortly after the initial release of Docker I started working to &amp;ldquo;containerize all the things.&amp;rdquo; Outside of work I can commonly be found gaming with my wife, cycling, at the gym, or working on &amp;ldquo;this month&amp;rsquo;s inspiration.&amp;rdquo; (http://www.commitstrip.com/en/2014/11/25/west-side-project-story/)</description>
+    </item>
+    
+    <item>
+      <title>Intro to DevSpaces</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/intro-to-devspaces/</link>
+      <pubDate>Mon, 22 Oct 2018 16:06:04 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/intro-to-devspaces/</guid>
+      <description>Have you ever wanted to &amp;ldquo;ship&amp;rdquo; an incremental solution? Ever wanted to collaborate with another developer on dependent services as you work through the kinks of integration? Or, have you deployed multiple variations into a public space for feedback? Azure DevSpaces provides a container playground worth considering. In this session we&amp;rsquo;ll walk through the basics of deploying and debugging in Dev Spaces.</description>
+    </item>
+    
+    <item>
       <title>Get Blazor-ed</title>
       <link>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</link>
       <pubDate>Thu, 11 Oct 2018 11:42:09 -0500</pubDate>
