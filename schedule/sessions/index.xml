@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on South Dakota Code Camp</title>
+    <link>https://southdakotacodecamp.com/schedule/sessions/</link>
+    <description>Recent content in Sessions on South Dakota Code Camp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Sep 2018 12:54:32 -0500</lastBuildDate>
+    
+	<atom:link href="https://southdakotacodecamp.com/schedule/sessions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get Blazor-ed</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</link>
+      <pubDate>Thu, 11 Oct 2018 11:42:09 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</guid>
+      <description>Why should the javascript developers have all the fun? They write javascript on the server. Now you can write C# in the browser. It’s only fair. Come check out the basics of Blazor and find out how you too can write the same language in all the places.</description>
+    </item>
+    
+    <item>
+      <title>Stalking Your House With Home Automation</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/stalking-your-house-with-home-automation/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:41 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/stalking-your-house-with-home-automation/</guid>
+      <description>Over the past two years, I&amp;rsquo;ve built a ton of sensors with the ESP8266 microcontroller platform to monitor activities around my house. I have sensors that are currently monitoring the temperature throughout my house plus two freezers in my basement. My garage has a garage door sensor to know if it is open or closed as well as a light sensor, complete with Slack integration for alerts and alarms. To top it off, I need to know when the washing machine completes it&amp;rsquo;s cycle so I monitor the vibrations of both the washer and dryer to know if they are running or not.</description>
+    </item>
+    
+    <item>
+      <title>Pipelines and Readonly Ref Structs</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</link>
+      <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</guid>
+      <description>A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.</description>
+    </item>
+    
+    <item>
+      <title>Career Pathing a Developer</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/career-pathing-a-developer/</link>
+      <pubDate>Thu, 11 Oct 2018 09:36:07 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/career-pathing-a-developer/</guid>
+      <description>Stop passing on life changing opportunities just because you do not know where it could end.
+Many developers are asking “what’s next after software development?”. Many developers pass on opportunities because they do know about the challenges or are fully content with what they are doing.
+If you are a developer that is wondering about what’s next after software development in your career path, then this session is for you. In addition, if you are content as a developer, this session will help you understand the other roles better so you could reconsider or appreciate the other roles.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Service Fabric and Aspnet for Microservices (or Regular Services)</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</link>
+      <pubDate>Thu, 11 Oct 2018 09:12:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</guid>
+      <description>Microservices and distributed architectures are a hot topic to meet the needs of scaling and managing application growth. A plethora of solutions are available that aim to make creating and managing these architectures easier. Which one should you use?
+Unfortunately, that question is too large to definitely answer in a single talk. However, we can provide you some information to help choose between the choices you make. In this talk, we&amp;rsquo;ll look at Microsoft Service Fabric.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to React</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/intro-to-react/</link>
+      <pubDate>Mon, 08 Oct 2018 10:17:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/intro-to-react/</guid>
+      <description>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. Open sourced by Facebook, but used by thousands of frontend engineers, React is one of the most popular JavaScript frameworks in use today. Learn what it is, why it&amp;rsquo;s so popular and how to build your own React-powered user interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Improving Web Performance</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/improving-web-performance/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/improving-web-performance/</guid>
+      <description>This session starts with a traditional web page and shows step by step how to improve its performance and user experience! Discover performance techniques that everyone should use, then learn techniques that differ when targeting HTTP 1.1 vs. HTTP/2. Review tools that can help identify and validate sound performance best practices. Explore how to defer resource requests with lazing loading, asynchronous loading, and postponing 3rd party tag requests. Many other performance boosting techniques will also be discussed, which can reduce response time while also boosting the scalability and reliability of your site.</description>
+    </item>
+    
+    <item>
+      <title>Adventures in Coding</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/adventures-in-coding/</link>
+      <pubDate>Tue, 25 Sep 2018 16:14:14 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/adventures-in-coding/</guid>
+      <description>There are so many great ways to teach your kids to code. Come explore the newest and the best. We will review some of the staples, and learn some ways to keep them fresh. From dressing up Dash and Dot to lighting up an LED ring with Arduino. Then we will launch into some great new ways to get coding. We will check out the games like codingFarmers, Potato Pirates, and Hacker.</description>
+    </item>
+    
+    <item>
+      <title>I Know I Should Be Unit Testing but I Don&#39;t Know How or Where to Start</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</link>
+      <pubDate>Fri, 21 Sep 2018 14:44:37 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</guid>
+      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development. I usually get the a few similar responses from those who haven’t adopted this viewpoint.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

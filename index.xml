@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on South Dakota Code Camp</title>
+    <link>https://southdakotacodecamp.com/</link>
+    <description>Recent content in Home on South Dakota Code Camp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Sep 2018 11:40:03 -0500</lastBuildDate>
+    
+	<atom:link href="https://southdakotacodecamp.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Younger kids workshop</title>
+      <link>https://southdakotacodecamp.com/schedule/youth/kids-track-1/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/youth/kids-track-1/</guid>
+      <description>Recommended for 5th grade and younger.
+This workshop will focus on using Ozobot&amp;rsquo;s and Sphero&amp;rsquo;s to navigate mazes that the kids will make. We will use a combination of manual control and programming to make the bots run the maze. This will be a free running workshop that will last the entire morning (instead of the normal 50 minute sessions).
+This will be a parent + kid track, where parents are expected to attend with their child.</description>
+    </item>
+    
+    <item>
+      <title>Older kids workshop</title>
+      <link>https://southdakotacodecamp.com/schedule/youth/kids-track-2/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/youth/kids-track-2/</guid>
+      <description>Recommended for 6th grade and older.
+In this workshop we will be learning about Intellectual Property, internal workings of a computer, and learning some basic commands to code for three different coding languages. For each language we will have a starting program that the kids will modify to meet the goal. We are working with the Boy Scouts of America to make this quality for the programming merit badge! This will be a free running workshop that will last the entire morning (instead of the normal 50 minute sessions).</description>
+    </item>
+    
+    <item>
+      <title>Get Blazor-ed</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</link>
+      <pubDate>Thu, 11 Oct 2018 11:42:09 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/get-blazor-ed/</guid>
+      <description>Why should the javascript developers have all the fun? They write javascript on the server. Now you can write C# in the browser. It’s only fair. Come check out the basics of Blazor and find out how you too can write the same language in all the places.</description>
+    </item>
+    
+    <item>
+      <title>Stalking Your House With Home Automation</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/stalking-your-house-with-home-automation/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:41 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/stalking-your-house-with-home-automation/</guid>
+      <description>Over the past two years, I&amp;rsquo;ve built a ton of sensors with the ESP8266 microcontroller platform to monitor activities around my house. I have sensors that are currently monitoring the temperature throughout my house plus two freezers in my basement. My garage has a garage door sensor to know if it is open or closed as well as a light sensor, complete with Slack integration for alerts and alarms. To top it off, I need to know when the washing machine completes it&amp;rsquo;s cycle so I monitor the vibrations of both the washer and dryer to know if they are running or not.</description>
+    </item>
+    
+    <item>
+      <title>Will Bushee</title>
+      <link>https://southdakotacodecamp.com/speakers/will-bushee/</link>
+      <pubDate>Thu, 11 Oct 2018 10:23:15 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/will-bushee/</guid>
+      <description>&lt;p&gt;I’m an avid technology enthusiast and a firm believer that almost any problem can be solved with a little creative thinking, the proper dataset, or by building the correct enrichment of web data. I enjoy working with kids, entrepreneurs, early-stage startups, and those struggling with the latest technology.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pipelines and Readonly Ref Structs</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</link>
+      <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</guid>
+      <description>A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.</description>
+    </item>
+    
+    <item>
+      <title>Bob Davidson</title>
+      <link>https://southdakotacodecamp.com/speakers/bob-davidson/</link>
+      <pubDate>Thu, 11 Oct 2018 10:04:30 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/bob-davidson/</guid>
+      <description>I am a Web Developer of various disciplines, focusing primarily on C# / ASP.NET. I spend most of my time working on CMS-based websites, though work occasionally in NodeJS/Livescript, PHP, and if pressed, Coldfusion. I&amp;rsquo;m a fan of Episerver, have a minor fascination with monadic parsers, and am still getting the hang of F#.</description>
+    </item>
+    
+    <item>
+      <title>Career Pathing a Developer</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/career-pathing-a-developer/</link>
+      <pubDate>Thu, 11 Oct 2018 09:36:07 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/career-pathing-a-developer/</guid>
+      <description>Stop passing on life changing opportunities just because you do not know where it could end.
+Many developers are asking “what’s next after software development?”. Many developers pass on opportunities because they do know about the challenges or are fully content with what they are doing.
+If you are a developer that is wondering about what’s next after software development in your career path, then this session is for you. In addition, if you are content as a developer, this session will help you understand the other roles better so you could reconsider or appreciate the other roles.</description>
+    </item>
+    
+    <item>
+      <title>Him Acharya</title>
+      <link>https://southdakotacodecamp.com/speakers/him-acharya/</link>
+      <pubDate>Thu, 11 Oct 2018 09:35:43 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/him-acharya/</guid>
+      <description>&lt;p&gt;Him Acharya is a Development Manager at CHR Solutions in Sioux Falls where he owns the development team for one of the core product. He has been in the software industry for more than 10 years and is always open to learn new techs and share it with others. His past work involved graduate programmer, software developer, Development lead and now the dev manager.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Service Fabric and Aspnet for Microservices (or Regular Services)</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</link>
+      <pubDate>Thu, 11 Oct 2018 09:12:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/getting-started-with-service-fabric-and-aspnet-for-microservices-or-regular-services/</guid>
+      <description>Microservices and distributed architectures are a hot topic to meet the needs of scaling and managing application growth. A plethora of solutions are available that aim to make creating and managing these architectures easier. Which one should you use?
+Unfortunately, that question is too large to definitely answer in a single talk. However, we can provide you some information to help choose between the choices you make. In this talk, we&amp;rsquo;ll look at Microsoft Service Fabric.</description>
+    </item>
+    
+    <item>
+      <title>Logan Drews</title>
+      <link>https://southdakotacodecamp.com/speakers/logan-drews/</link>
+      <pubDate>Thu, 11 Oct 2018 09:11:52 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/logan-drews/</guid>
+      <description>Logan Drews is a Senior Software Engineer at CHR Solutions in Sioux Falls, South Dakota and works to provide the scaling and features for ever-growing telecommunication companies.</description>
+    </item>
+    
+    <item>
+      <title>Joel Kauffman</title>
+      <link>https://southdakotacodecamp.com/speakers/joel-kauffman/</link>
+      <pubDate>Mon, 08 Oct 2018 10:55:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/joel-kauffman/</guid>
+      <description>Joel Kauffman is the lead developer for Worthington Ag Parts in Sioux Falls, SD. Joel has spoken previously at various conferences in the region, and enjoys meeting and talking with people who share his passion for technology. When he isn’t speaking or building software, Joel spends time with his wife and 4 kids, and is remodeling his 1886 house.</description>
+    </item>
+    
+    <item>
+      <title>Miles Rausch</title>
+      <link>https://southdakotacodecamp.com/speakers/miles-rausch/</link>
+      <pubDate>Mon, 08 Oct 2018 10:18:44 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/miles-rausch/</guid>
+      <description>Miles Rausch is a web developer from Sioux Falls, South Dakota. He&amp;rsquo;s a writer for people and a writer for computers. He seems destined to spend time at a keyboard. Miles currently works at Carsforsale.com where he does full-stack development on the flagship product, Carsforsale.com.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to React</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/intro-to-react/</link>
+      <pubDate>Mon, 08 Oct 2018 10:17:34 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/intro-to-react/</guid>
+      <description>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. Open sourced by Facebook, but used by thousands of frontend engineers, React is one of the most popular JavaScript frameworks in use today. Learn what it is, why it&amp;rsquo;s so popular and how to build your own React-powered user interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Improving Web Performance</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/improving-web-performance/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:57 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/improving-web-performance/</guid>
+      <description>This session starts with a traditional web page and shows step by step how to improve its performance and user experience! Discover performance techniques that everyone should use, then learn techniques that differ when targeting HTTP 1.1 vs. HTTP/2. Review tools that can help identify and validate sound performance best practices. Explore how to defer resource requests with lazing loading, asynchronous loading, and postponing 3rd party tag requests. Many other performance boosting techniques will also be discussed, which can reduce response time while also boosting the scalability and reliability of your site.</description>
+    </item>
+    
+    <item>
+      <title>Robert Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:17:30 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/robert-boedigheimer/</guid>
+      <description>Robert Boedigheimer works for Schwans Shared Services, LLC providing business solutions with web technologies. Robert has been developing web sites for the past 20 years. He is an ASP.NET MVP, a Pluralsight author, and a 3rd degree black belt in Tae Kwon Do. Robert regularly speaks at national and international events.</description>
+    </item>
+    
+    <item>
+      <title>Adventures in Coding</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/adventures-in-coding/</link>
+      <pubDate>Tue, 25 Sep 2018 16:14:14 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/adventures-in-coding/</guid>
+      <description>There are so many great ways to teach your kids to code. Come explore the newest and the best. We will review some of the staples, and learn some ways to keep them fresh. From dressing up Dash and Dot to lighting up an LED ring with Arduino. Then we will launch into some great new ways to get coding. We will check out the games like codingFarmers, Potato Pirates, and Hacker.</description>
+    </item>
+    
+    <item>
+      <title>Kris Boedigheimer</title>
+      <link>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</link>
+      <pubDate>Tue, 25 Sep 2018 16:13:31 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kris-boedigheimer/</guid>
+      <description>I am a former computer programmer turned homeschool mom who loves learning, travel, exercise, reading, finding exciting new hobbies, and spending time with family. My favorite subjects are programming, math, and logic. Besides teaching homeschool I am a third degree black belt in Tae Kwon Do, Advanced Level Toastmaster Speaker, and group fitness instructor for Les Mills Bodyflow, and Les Milles BodyAttack. We travel constantly and make it a habit to try something different at each location including blown glass, painting classes, surfing, carving carousel animals, and trapeze class.</description>
+    </item>
+    
+    <item>
+      <title>Venue</title>
+      <link>https://southdakotacodecamp.com/information/venue/</link>
+      <pubDate>Mon, 24 Sep 2018 16:18:26 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/venue/</guid>
+      <description>&lt;p&gt;The next South Dakota Code Camp will be happening on October 27, 2018 at Raven Industries. &lt;a href=&#34;https://goo.gl/maps/if1oaK6WHnC2&#34;&gt;Click here for directions&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Spaces</title>
+      <link>https://southdakotacodecamp.com/information/open-spaces/</link>
+      <pubDate>Fri, 21 Sep 2018 20:48:00 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/open-spaces/</guid>
+      <description>&lt;p&gt;Also called Unconferences, OpenSpace is a simple methodology for self-organizing conference tracks. It relies on participation by people who have a passion for the topics to be discussed. There is no preplanned list of topics, only time slots and a space in the main meeting room where interested participants propose topics and pick time slots.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I Know I Should Be Unit Testing but I Don&#39;t Know How or Where to Start</title>
+      <link>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</link>
+      <pubDate>Fri, 21 Sep 2018 14:44:37 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</guid>
+      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development. I usually get the a few similar responses from those who haven’t adopted this viewpoint.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kevin Logan</title>
+      <link>https://southdakotacodecamp.com/speakers/kevin-logan/</link>
+      <pubDate>Fri, 21 Sep 2018 14:43:25 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/speakers/kevin-logan/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a developer for over 12 years at Omnitech and have worked on a variety of .Net projects. I work mostly in .Net with a focus on UI development in web applications, but lately I&amp;rsquo;ve been working with Service Fabric. I enjoy sharing links and ideas, blogging at &lt;a href=&#34;https://www.aligneddev.net&#34;&gt;https://www.aligneddev.net&lt;/a&gt; and on Twitter &lt;a href=&#34;https://twitter.com/aligneddev&#34;&gt;@aligneddev&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>https://southdakotacodecamp.com/information/about-us/</link>
+      <pubDate>Thu, 20 Sep 2018 12:25:32 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/about-us/</guid>
+      <description>South Dakota Code Camp is The Mount Rushmore State&amp;rsquo;s largest developer conference. We are an annual event held in Sioux Falls, SD. The event is completely free, covered entirely by our gracious sponsors.
+South Dakota Code Camp follows the guidelines published in the Code Camp manifesto. We expect our attendees to adhere to our code of conduct policy.
+As this is a community-driven event, we are always looking for people to lead sessions, volunteer to help during the day of the event, etc.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://southdakotacodecamp.com/information/code-of-conduct/</link>
+      <pubDate>Wed, 19 Sep 2018 08:52:24 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/code-of-conduct/</guid>
+      <description>South Dakota Code Camp is a community conference intended for networking and collaboration in the developer community.
+We value the participation of each member of the SFDevs community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored by SFDevs or not.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any SFDevs event are required to conform to the following Code of Conduct.</description>
+    </item>
+    
+  </channel>
+</rss>

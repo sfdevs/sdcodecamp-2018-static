@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on South Dakota Code Camp</title>
+    <link>https://southdakotacodecamp.com/information/</link>
+    <description>Recent content in Information on South Dakota Code Camp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Sep 2018 08:51:54 -0500</lastBuildDate>
+    
+	<atom:link href="https://southdakotacodecamp.com/information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Venue</title>
+      <link>https://southdakotacodecamp.com/information/venue/</link>
+      <pubDate>Mon, 24 Sep 2018 16:18:26 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/venue/</guid>
+      <description>&lt;p&gt;The next South Dakota Code Camp will be happening on October 27, 2018 at Raven Industries. &lt;a href=&#34;https://goo.gl/maps/if1oaK6WHnC2&#34;&gt;Click here for directions&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Spaces</title>
+      <link>https://southdakotacodecamp.com/information/open-spaces/</link>
+      <pubDate>Fri, 21 Sep 2018 20:48:00 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/open-spaces/</guid>
+      <description>&lt;p&gt;Also called Unconferences, OpenSpace is a simple methodology for self-organizing conference tracks. It relies on participation by people who have a passion for the topics to be discussed. There is no preplanned list of topics, only time slots and a space in the main meeting room where interested participants propose topics and pick time slots.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>https://southdakotacodecamp.com/information/about-us/</link>
+      <pubDate>Thu, 20 Sep 2018 12:25:32 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/about-us/</guid>
+      <description>South Dakota Code Camp is The Mount Rushmore State&amp;rsquo;s largest developer conference. We are an annual event held in Sioux Falls, SD. The event is completely free, covered entirely by our gracious sponsors.
+South Dakota Code Camp follows the guidelines published in the Code Camp manifesto. We expect our attendees to adhere to our code of conduct policy.
+As this is a community-driven event, we are always looking for people to lead sessions, volunteer to help during the day of the event, etc.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://southdakotacodecamp.com/information/code-of-conduct/</link>
+      <pubDate>Wed, 19 Sep 2018 08:52:24 -0500</pubDate>
+      
+      <guid>https://southdakotacodecamp.com/information/code-of-conduct/</guid>
+      <description>South Dakota Code Camp is a community conference intended for networking and collaboration in the developer community.
+We value the participation of each member of the SFDevs community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored by SFDevs or not.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any SFDevs event are required to conform to the following Code of Conduct.</description>
+    </item>
+    
+  </channel>
+</rss>
