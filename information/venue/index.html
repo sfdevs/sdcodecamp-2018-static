@@ -47,7 +47,7 @@
 
 <meta itemprop="datePublished" content="2018-09-24T16:18:26-05:00" />
 <meta itemprop="dateModified" content="2018-09-24T16:18:26-05:00" />
-<meta itemprop="wordCount" content="20">
+<meta itemprop="wordCount" content="21">
 
 
 
@@ -293,9 +293,24 @@ if (!doNotTrack) {
         <h1>Venue</h1>
         <p>The next South Dakota Code Camp will be happening on October 27, 2018 at Raven Industries. <a href="https://goo.gl/maps/if1oaK6WHnC2">Click here for directions</a>.</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d722.9131324703587!2d-96.7250152!3d43.5512845!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d43.5514691!2d-96.7246062!5e0!3m2!1sen!2sus!4v1537824249718" width="600" height="450" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+<div class="loading-container">
+    <div class="loading" id="spinner">
+        <span class="loading__text">Loading<span aria-hidden="true">...</span></span>
+        <div class="loading__bar"></div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d722.9131324703587!2d-96.7250152!3d43.5512845!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d43.5514691!2d-96.7246062!5e0!3m2!1sen!2sus!4v1537824249718" width="600" height="450" frameborder="0" style="border:0; width: 100%" allowfullscreen id="VenueMap" style="display: none;"></iframe>
+</div>
     </div>
 </main>
+<script>
+    var venueMap = document.getElementById('VenueMap');
+    if (venueMap) {
+        venueMap.addEventListener('load', function() {
+            document.getElementById('spinner').style.display = 'none';
+            venueMap.style.display = 'block';
+        });
+    }
+</script>
 
         </div>
 <footer class="l-footer pt-60 pb-60" role="contentinfo">

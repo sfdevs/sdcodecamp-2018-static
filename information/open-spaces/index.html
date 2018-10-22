@@ -329,6 +329,15 @@ if (!doNotTrack) {
 </ul>
     </div>
 </main>
+<script>
+    var venueMap = document.getElementById('VenueMap');
+    if (venueMap) {
+        venueMap.addEventListener('load', function() {
+            document.getElementById('spinner').style.display = 'none';
+            venueMap.style.display = 'block';
+        });
+    }
+</script>
 
         </div>
 <footer class="l-footer pt-60 pb-60" role="contentinfo">
