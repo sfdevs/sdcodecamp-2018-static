@@ -2,8 +2,14 @@
 // Layout
 //
 
-.l-bg-map {
+.l-surround {
+    display: flex;
+    min-height: calc(100vh - 3.75rem);
+    flex-direction: column;
+}
 
+#content {
+    flex: 1;
 }
 
 .l-skip-nav {

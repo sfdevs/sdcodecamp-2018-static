@@ -99,21 +99,13 @@
 
 .js-has-scrolled {
     .l-header {
-        // background-color: aquamarine;
         opacity: .92;
-        // box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+        box-shadow: 0 0 20px rgba(0, 0, 0, .3);
 
         &:hover {
             opacity: 1;
         }
     }
-    // @media (min-width: $off-canvas-breakpoint) {
-    //     .l-navbar {
-    //         .mln__list {
-    //             background-color: aquamarine;
-    //         }
-    //     }
-    // }
 }
 
 .js-snooper {

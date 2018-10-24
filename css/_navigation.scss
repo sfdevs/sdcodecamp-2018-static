@@ -42,7 +42,6 @@
 
     a,
     .mln__toggle-btn:focus {
-        // outline: 0;
         outline-offset: -3px;
     }
 
@@ -52,6 +51,7 @@
         a {
             padding-left: 0 !important;
             color: $color-night-sky;
+            text-decoration: underline;
             font-size: 1rem;
 
             &:hover {
