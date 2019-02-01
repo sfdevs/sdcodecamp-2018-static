@@ -101,7 +101,7 @@ In this workshop we will be learning about Intellectual Property, internal worki
       <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</guid>
-      <description>A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.</description>
+      <description>&lt;p&gt;A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -221,7 +221,7 @@ Unfortunately, that question is too large to definitely answer in a single talk.
       <pubDate>Mon, 24 Sep 2018 16:18:26 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/information/venue/</guid>
-      <description>&lt;p&gt;The next South Dakota Code Camp will be happening on October 27, 2018 at Raven Industries. &lt;a href=&#34;https://goo.gl/maps/if1oaK6WHnC2&#34;&gt;Click here for directions&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The next South Dakota Code Camp will be happening on October 27, 2018 at Raven Industries.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -230,8 +230,7 @@ Unfortunately, that question is too large to definitely answer in a single talk.
       <pubDate>Fri, 21 Sep 2018 20:48:00 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/information/open-spaces/</guid>
-      <description>&lt;p&gt;Also called Unconferences, OpenSpace is a simple methodology for self-organizing conference tracks. It relies on participation by people who have a passion for the topics to be discussed. There is no preplanned list of topics, only time slots and a space in the main meeting room where interested participants propose topics and pick time slots.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Also called Unconferences, OpenSpace is a simple methodology for self-organizing conference tracks. It relies on participation by people who have a passion for the topics to be discussed. There is no preplanned list of topics, only time slots and a space in the main meeting room where interested participants propose topics and pick time slots.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -240,7 +239,7 @@ Unfortunately, that question is too large to definitely answer in a single talk.
       <pubDate>Fri, 21 Sep 2018 14:44:37 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</guid>
-      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development. I usually get the a few similar responses from those who haven’t adopted this viewpoint.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -249,7 +248,7 @@ Unfortunately, that question is too large to definitely answer in a single talk.
       <pubDate>Fri, 21 Sep 2018 14:43:25 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/speakers/kevin-logan/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been a developer for over 12 years at Omnitech and have worked on a variety of .Net projects. I work mostly in .Net with a focus on UI development in web applications, but lately I&amp;rsquo;ve been working with Service Fabric. I enjoy sharing links and ideas, blogging at &lt;a href=&#34;https://www.aligneddev.net&#34;&gt;https://www.aligneddev.net&lt;/a&gt; and on Twitter &lt;a href=&#34;https://twitter.com/aligneddev&#34;&gt;@aligneddev&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a developer for over 12 years at Omnitech and have worked on a variety of .Net projects. I work mostly in .Net with a focus on UI development in web applications, but lately I&amp;rsquo;ve been working with Service Fabric.&lt;/p&gt;</description>
     </item>
     
     <item>

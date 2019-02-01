@@ -53,7 +53,7 @@
       <pubDate>Thu, 11 Oct 2018 10:05:15 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/schedule/sessions/pipelines-and-readonly-ref-structs/</guid>
-      <description>A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET. This would include a quick refresher on the .NET memory model, an introduction to the new reference semantics for value types in C#, a look at the new System.Memory and System.IO.Pipelines libraries, and putting them together for some possible low-level performance gains. Will round out the discussion with some code examples/demos.</description>
+      <description>&lt;p&gt;A brief tour and high-level overview of some of the new C# 7.2 language features and libraries to enable higher performance I/O in .NET.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,7 +110,7 @@ Unfortunately, that question is too large to definitely answer in a single talk.
       <pubDate>Fri, 21 Sep 2018 14:44:37 -0500</pubDate>
       
       <guid>https://southdakotacodecamp.com/schedule/sessions/i-know-i-should-be-unit-testing-but-i-dont-know-how-or-where-to-start/</guid>
-      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development. I usually get the a few similar responses from those who haven’t adopted this viewpoint.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’ve talked to many developers about why Unit Testing (as well as automated integration and acceptance testing) and why I think it should be something that is a natural part of development.&lt;/p&gt;</description>
     </item>
     
   </channel>
